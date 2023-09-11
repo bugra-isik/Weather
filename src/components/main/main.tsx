@@ -8,7 +8,7 @@ import Chart4 from "./charts/chart4";
 import Chart5 from "./charts/chart5";
 
 export default function Main() {
-  const { weatherData, currentCounty } = myStore();
+  const { weatherData, weatherData2, currentCounty } = myStore();
   const { theme, setTheme } = themeStore();
   // const [data, setData] = useState<JSX.Element[] | undefined>(undefined);
 

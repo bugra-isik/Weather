@@ -20,7 +20,7 @@ interface ZipApi {
   lon: number;
 }
 
-interface WeatherData {
+export interface WeatherData {
   list: [
     {
       dt: number;
@@ -39,6 +39,12 @@ interface WeatherData {
   ];
 }
 
+interface WeatherData2 {
+  weather: [{ description: string }];
+  main: { temp: number; humidity: number };
+  wind: { speed: number };
+}
+
 interface Store {
   api: City[];
   setApi: (x: City[]) => void;
@@ -50,6 +56,8 @@ interface Store {
   setZipApi: (x: ZipApi) => void;
   weatherData: WeatherData | undefined;
   setWeatherData: (x: WeatherData) => void;
+  weatherData2: WeatherData2 | undefined;
+  setWeatherData2: (x: WeatherData2) => void;
   currentCounty: undefined | string;
   setCurrentCounty: (x: string | undefined) => void;
 }
@@ -70,6 +78,8 @@ const myStore = create<Store>((set) => ({
   setZipApi: (x) => set(() => ({ zipApi: x })),
   weatherData: undefined,
   setWeatherData: (x) => set(() => ({ weatherData: x })),
+  weatherData2: undefined,
+  setWeatherData2: (x) => set(() => ({ weatherData2: x })),
   currentCounty: undefined,
   setCurrentCounty: (x) => set(() => ({ currentCounty: x })),
 }));

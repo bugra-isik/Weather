@@ -6,7 +6,14 @@ import Main from "./components/main/main";
 import Footer from "./components/footer/footer";
 
 export default function App() {
-  const { setApi, sendZipCode, zipApi, setZipApi, setWeatherData } = myStore();
+  const {
+    setApi,
+    sendZipCode,
+    zipApi,
+    setZipApi,
+    setWeatherData,
+    setWeatherData2,
+  } = myStore();
 
   const fetchDB = useCallback(async () => {
     const response = await axios.get("/data.json");
@@ -17,11 +24,12 @@ export default function App() {
     }
   }, [setApi]);
 
-  const apiKey = "38688aebf7e994592fd083f105e84d5f//";
+  const apiKey = "38688aebf7e994592fd083f105e84d5f";
 
   const [lat, setLat] = useState<number>();
   const [lon, setLon] = useState<number>();
   const [url, setUrl] = useState<string>();
+  const [url2, setUrl2] = useState<string>();
   //`https://api.openweathermap.org/data/2.5/weather?lat=41.0812&lon=29.0177&units=metric&appid=${apiKey}`
 
   const zipURL = `http://api.openweathermap.org/geo/1.0/zip?zip=${sendZipCode},TR&appid=${apiKey}`;
@@ -34,6 +42,9 @@ export default function App() {
     }
     setUrl(
       `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`,
+    );
+    setUrl2(
+      `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`,
     );
   }, [zipApi, lat, lon]);
 
@@ -55,6 +66,15 @@ export default function App() {
         .catch(() => console.log(url)));
   }, [setWeatherData, url, lat]);
 
+  const fetchURL2 = useCallback(async () => {
+    url2 &&
+      lat &&
+      (await axios
+        .get(url2)
+        .then((e) => setWeatherData2(e.data))
+        .catch(() => console.log(url2)));
+  }, [lat, setWeatherData2, url2]);
+
   useEffect(() => {
     fetchDB();
   }, [fetchDB]);
@@ -66,6 +86,10 @@ export default function App() {
   useEffect(() => {
     fetchURL();
   }, [fetchURL]);
+
+  useEffect(() => {
+    fetchURL2();
+  }, [fetchURL2]);
 
   return (
     <main className={`container m-auto flex h-full w-full flex-col`}>

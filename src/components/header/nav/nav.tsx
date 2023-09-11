@@ -1,4 +1,4 @@
-import { HtmlHTMLAttributes, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { City, myStore } from "../../../store";
 import { useClickAway } from "@uidotdev/usehooks";
 import { motion } from "framer-motion";
@@ -15,7 +15,8 @@ interface Districts {
 }
 
 export default function Nav() {
-  const { api, setSendZipCode, currentCounty, setCurrentCounty } = myStore();
+  const { api, setSendZipCode, currentCounty, setCurrentCounty, weatherData2 } =
+    myStore();
   const [cityOpen, setCityOpen] = useState(false);
   const [countyOpen, setCountyOpen] = useState(false);
   const [currentCity, setCurrentCity] = useState<string | undefined>("");
@@ -28,7 +29,7 @@ export default function Nav() {
   const [filteredCounties_2, setFilteredCounties_2] = useState<Districts[]>();
 
   //////////////////////////////////////////////////////////////////////////////!
-  const inputRef = useRef<HTMLInputElement | null>();
+  const inputRef = useRef<HTMLInputElement | null>(null);
 
   const ref = useClickAway<HTMLUListElement>(() => {
     setCityOpen(false);
@@ -128,10 +129,14 @@ export default function Nav() {
               setCityInputValue("");
             }}
             onKeyDown={(e) => {
-              if (e.key === "Enter" || e.key === "Tab") {
+              if (e.key === "Enter") {
                 setCurrentCity(filteredCities && filteredCities[0].name);
                 setCityOpen(false);
                 inputRef.current?.focus();
+              } else if (e.key === "Tab") {
+                setCurrentCity(filteredCities && filteredCities[0].name);
+                setCityOpen(false);
+                inputRef.current?.click();
               } else if (e.key === "Backspace") {
                 setCurrentCity("");
               }
@@ -209,11 +214,19 @@ export default function Nav() {
         <div
           className={`grid basis-2/3 select-none grid-cols-2 items-center justify-items-center rounded-l-2xl bg-blue-500`}
         >
-          <ul className={`text-5xl`}>
-            <li>Başakşehir</li>
-            <li>İstanbul</li>
-          </ul>
-          <div className={`text-8xl`}>25°</div>
+          {currentCounty && (
+            <ul className={`text-5xl`}>
+              <li className={`capitalize`}>
+                {currentCounty?.toLocaleLowerCase()}
+              </li>
+              <li className={`capitalize`}>
+                {currentCity?.toLocaleLowerCase()}
+              </li>
+            </ul>
+          )}
+          <div className={`text-8xl`}>
+            {weatherData2 && `${weatherData2.main.temp.toFixed(1)}°`}
+          </div>
         </div>
         <div
           className={`flex basis-1/3 items-center justify-center rounded-r-2xl bg-black text-xl`}

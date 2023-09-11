@@ -8,57 +8,28 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { myStore } from "../../../store";
+import dayjs, { unix } from "dayjs";
 
 export default function Chart() {
-  const { weatherData, currentCounty } = myStore();
+  const { weatherData } = myStore();
 
-  const chunkSize = 8;
-
-  const groupedLists = [];
+  const element = [];
 
   if (weatherData?.list) {
-    for (let i = 0; i < weatherData?.list.length; i++) {
-      groupedLists.push(weatherData?.list.slice(i, i + chunkSize));
+    for (let i = 0; i < weatherData?.list.length; i += 8) {
+      element.push(weatherData?.list.slice(i, i + 8));
     }
   }
-  
-  const data = [
-    {
-      name: "Page A",
-      uv: 4000,
-      amt: 2400,
-    },
-    {
-      name: "Page B",
-      uv: 3000,
-      amt: 2210,
-    },
-    {
-      name: "Page C",
-      uv: 2000,
-      amt: 2290,
-    },
-    {
-      name: "Page D",
-      uv: 2780,
-      amt: 2000,
-    },
-    {
-      name: "Page E",
-      uv: 1890,
-      amt: 2181,
-    },
-    {
-      name: "Page F",
-      uv: 2390,
-      amt: 2500,
-    },
-    {
-      name: "Page G",
-      uv: 3490,
-      amt: 2100,
-    },
-  ];
+
+  const data = element[0]?.map(
+    (e) => (
+      console.log(unix(e.dt)),
+      {
+        name: dayjs(unix(e.dt)).hour(),
+        Sıcaklık: e.main.temp_max.toFixed(1),
+      }
+    ),
+  );
 
   return (
     <div className={`h-40 basis-1/2`}>
@@ -69,16 +40,16 @@ export default function Chart() {
           data={data}
           margin={{
             top: 10,
-            right: 30,
+            right: 50,
             left: 0,
-            bottom: 0,
+            bottom: 10,
           }}
         >
-          <CartesianGrid strokeDasharray="3 3" />
+          {/* <CartesianGrid strokeDasharray="1 1" /> */}
           <XAxis dataKey="name" />
           <YAxis />
           <Tooltip />
-          <Area type="monotone" dataKey="uv" stroke="#8884d8" fill="#8884d8" />
+          <Area type="natural" dataKey="Sıcaklık" stroke="#000" fill="#000" />
         </AreaChart>
       </ResponsiveContainer>
     </div>
