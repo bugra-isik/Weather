@@ -3,12 +3,11 @@ import {
   Area,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
 import { myStore } from "../../../store";
-import dayjs, { unix } from "dayjs";
+import { unix } from "dayjs";
 
 export default function Chart() {
   const { weatherData } = myStore();
@@ -21,15 +20,10 @@ export default function Chart() {
     }
   }
 
-  const data = element[0]?.map(
-    (e) => (
-      console.log(unix(e.dt)),
-      {
-        name: dayjs(unix(e.dt)).hour(),
-        Sıcaklık: e.main.temp_max.toFixed(1),
-      }
-    ),
-  );
+  const data = element[0]?.map((e) => ({
+    name: unix(e.dt).format("HH:mm"),
+    Sıcaklık: e.main.temp_max.toFixed(1),
+  }));
 
   return (
     <div className={`h-40 basis-1/2`}>

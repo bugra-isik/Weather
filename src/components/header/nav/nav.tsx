@@ -27,9 +27,12 @@ export default function Nav() {
   const [filteredCities, setFilteredCities] = useState<City[]>();
   const [filteredCounties, setFilteredCounties] = useState<City[]>();
   const [filteredCounties_2, setFilteredCounties_2] = useState<Districts[]>();
+  const [cityValue, setCityValue] = useState<string | undefined>();
+  const [countyValue, setCountyValue] = useState<string | undefined>();
 
   //////////////////////////////////////////////////////////////////////////////!
-  const inputRef = useRef<HTMLInputElement | null>(null);
+  const cityRef = useRef<HTMLInputElement | null>(null);
+  const countyRef = useRef<HTMLInputElement | null>(null);
 
   const ref = useClickAway<HTMLUListElement>(() => {
     setCityOpen(false);
@@ -61,6 +64,8 @@ export default function Nav() {
       onClick={() => {
         setCurrentCity(item.name);
         setCityOpen(false);
+        setCityValue(item.name);
+        cityRef.current && (cityRef.current.value = item.name);
       }}
     >
       {item.name}
@@ -91,7 +96,11 @@ export default function Nav() {
       key={item.name}
       className={`cursor-pointer select-none border-b py-3 hover:bg-blue-500`}
       onClick={() => {
-        item.name && setCurrentCounty(item.name);
+        if (item.name) {
+          setCurrentCounty(item.name);
+          setCountyValue(item.name);
+          countyRef.current && (countyRef.current.value = item.name);
+        }
         setCountyOpen(false);
         item.districts[0].neighborhoods[0].code !== undefined &&
           setSendZipCode(item.districts[0].neighborhoods[0].code);
@@ -104,6 +113,7 @@ export default function Nav() {
   //////////////////////////////////////////////////////////////////////////////!
 
   const inputClass = "pointer-events-none";
+  const inputTexts = ["Lütfen Şehir Seçin", "Lütfen İlçe Seçin"];
 
   return (
     <nav
@@ -115,28 +125,28 @@ export default function Nav() {
         <div className={`relative flex flex-col gap-y-10 `}>
           <input
             className={`h-10 w-60`}
+            ref={cityRef}
             type="text"
-            placeholder="LÜDVEN ŞEHİR SEÇİNİZ"
-            value={currentCity || undefined}
+            placeholder={inputTexts[0]}
             onChange={(e) => {
               setCityInputValue(e.currentTarget.value.toLocaleUpperCase());
             }}
             onClick={(e) => {
               handleOpenCity();
               e.currentTarget.value = "";
-              setCurrentCity("");
-              setCurrentCounty("");
-              setCityInputValue("");
+              countyRef.current && (countyRef.current.value = "");
             }}
             onKeyDown={(e) => {
               if (e.key === "Enter") {
                 setCurrentCity(filteredCities && filteredCities[0].name);
+                setCityValue(filteredCities && filteredCities[0].name);
                 setCityOpen(false);
-                inputRef.current?.focus();
+                countyRef.current?.focus();
               } else if (e.key === "Tab") {
                 setCurrentCity(filteredCities && filteredCities[0].name);
+                setCityValue(filteredCities && filteredCities[0].name);
                 setCityOpen(false);
-                inputRef.current?.click();
+                countyRef.current?.click();
               } else if (e.key === "Backspace") {
                 setCurrentCity("");
               }
@@ -156,32 +166,32 @@ export default function Nav() {
         </div>
         <div
           className={`${
-            currentCity ? "" : "cursor-no-drop"
+            countyRef.current?.value == "" ? "cursor-no-drop" : ""
           } relative flex flex-col  gap-y-10`}
         >
           <input
-            className={`h-10 w-60 ${currentCity ? "" : inputClass}`}
-            ref={inputRef}
+            className={`h-10 w-60 ${cityValue ? "" : inputClass}`}
+            ref={countyRef}
             type="text"
-            placeholder="LÜDVEN İLÇE SEÇİNİZ"
-            value={undefined || currentCounty}
+            placeholder={currentCity ? inputTexts[1] : inputTexts[0]}
             onChange={(e) => {
               setCountyInputValue(e.currentTarget.value.toLocaleUpperCase());
             }}
             onClick={(e) => {
               currentCity && handleOpenCounty();
               e.currentTarget.value = "";
-              setCurrentCounty(undefined);
-              setCityInputValue(" ");
             }}
             onFocus={() => {
               setCityOpen(false);
               setCountyOpen(true);
-              setCurrentCounty(undefined);
+              setCountyValue("");
             }}
             onKeyDown={(e) => {
               if (e.key === "Enter" || e.key === "Tab") {
                 setCurrentCounty(
+                  filteredCounties_2 && filteredCounties_2[0].name,
+                );
+                setCountyValue(
                   filteredCounties_2 && filteredCounties_2[0].name,
                 );
                 setCountyOpen(false);
@@ -191,7 +201,8 @@ export default function Nav() {
                     "",
                 );
               } else if (e.key === "Backspace") {
-                setCurrentCounty(undefined);
+                setCountyValue("");
+                setCountyOpen(true);
               }
             }}
           />
@@ -208,32 +219,54 @@ export default function Nav() {
         </div>
       </div>
 
-      <div
-        className={`flex h-full basis-2/3 rounded-2xl  font-openSans  font-black text-white`}
-      >
+      {weatherData2 ? (
         <div
-          className={`grid basis-2/3 select-none grid-cols-2 items-center justify-items-center rounded-l-2xl bg-blue-500`}
+          className={`flex h-full basis-2/3 rounded-2xl  font-openSans  font-black text-white`}
         >
-          {currentCounty && (
-            <ul className={`text-5xl`}>
-              <li className={`capitalize`}>
-                {currentCounty?.toLocaleLowerCase()}
-              </li>
-              <li className={`capitalize`}>
-                {currentCity?.toLocaleLowerCase()}
-              </li>
+          <div
+            className={`grid basis-2/3 select-none grid-cols-2 items-center justify-items-center rounded-l-2xl bg-blue-500`}
+          >
+            <ul className={`text-end text-5xl`}>
+              {currentCounty && weatherData2 && (
+                <>
+                  <li className={`capitalize`}>
+                    {currentCounty?.toLocaleLowerCase()}
+                  </li>
+                  <li className={`capitalize`}>
+                    {currentCity?.toLocaleLowerCase()}
+                  </li>
+                </>
+              )}
             </ul>
-          )}
-          <div className={`text-8xl`}>
-            {weatherData2 && `${weatherData2.main.temp.toFixed(1)}°`}
+
+            {weatherData2 && (
+              <div className={`text-8xl`}>
+                {weatherData2?.main.temp.toFixed(1)}°
+              </div>
+            )}
+          </div>
+          <div
+            className={`flex basis-1/3 items-center justify-center rounded-r-2xl bg-black text-xl`}
+          >
+            <WeatherIcons.ClearSky />
           </div>
         </div>
+      ) : (
         <div
-          className={`flex basis-1/3 items-center justify-center rounded-r-2xl bg-black text-xl`}
+          className={`flex h-full basis-2/3 rounded-2xl  font-openSans  font-black text-white`}
         >
-          <WeatherIcons.ClearSky />
+          <div
+            className={`flex basis-2/3 select-none items-center justify-center rounded-l-2xl bg-blue-500 text-5xl`}
+          >
+            <span className={`animate-pulse`}>{inputTexts[0]}</span>
+          </div>
+          <div
+            className={`flex basis-1/3 items-center justify-center rounded-r-2xl bg-black text-xl`}
+          >
+            <WeatherIcons.ClearSky />
+          </div>
         </div>
-      </div>
+      )}
     </nav>
   );
 }
