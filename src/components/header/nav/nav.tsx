@@ -2,7 +2,8 @@ import { useEffect, useRef, useState } from "react";
 import { City, myStore } from "../../../store";
 import { useClickAway } from "@uidotdev/usehooks";
 import { motion } from "framer-motion";
-import WeatherIcons from "./svg/import";
+import Weather from "./weather";
+import { inputClass, inputTexts } from "./constants";
 
 interface Districts {
   districts: [
@@ -15,11 +16,10 @@ interface Districts {
 }
 
 export default function Nav() {
-  const { api, setSendZipCode, currentCounty, setCurrentCounty, weatherData2 } =
+  const { api, setSendZipCode, setCurrentCounty, currentCity, setCurrentCity } =
     myStore();
   const [cityOpen, setCityOpen] = useState(false);
   const [countyOpen, setCountyOpen] = useState(false);
-  const [currentCity, setCurrentCity] = useState<string | undefined>("");
   const [cityInputValue, setCityInputValue] = useState<string | undefined>();
   const [countyInputValue, setCountyInputValue] = useState<
     string | undefined
@@ -28,7 +28,6 @@ export default function Nav() {
   const [filteredCounties, setFilteredCounties] = useState<City[]>();
   const [filteredCounties_2, setFilteredCounties_2] = useState<Districts[]>();
   const [cityValue, setCityValue] = useState<string | undefined>();
-  const [countyValue, setCountyValue] = useState<string | undefined>();
 
   //////////////////////////////////////////////////////////////////////////////!
   const cityRef = useRef<HTMLInputElement | null>(null);
@@ -65,6 +64,7 @@ export default function Nav() {
         setCurrentCity(item.name);
         setCityOpen(false);
         setCityValue(item.name);
+        setCountyOpen(true);
         cityRef.current && (cityRef.current.value = item.name);
       }}
     >
@@ -98,7 +98,6 @@ export default function Nav() {
       onClick={() => {
         if (item.name) {
           setCurrentCounty(item.name);
-          setCountyValue(item.name);
           countyRef.current && (countyRef.current.value = item.name);
         }
         setCountyOpen(false);
@@ -110,10 +109,7 @@ export default function Nav() {
     </li>
   ));
 
-  //////////////////////////////////////////////////////////////////////////////!
-
-  const inputClass = "pointer-events-none";
-  const inputTexts = ["Lütfen Şehir Seçin", "Lütfen İlçe Seçin"];
+  //////////////////////////////////////////////////////////////////////////////*
 
   return (
     <nav
@@ -139,12 +135,19 @@ export default function Nav() {
             onKeyDown={(e) => {
               if (e.key === "Enter") {
                 setCurrentCity(filteredCities && filteredCities[0].name);
-                setCityValue(filteredCities && filteredCities[0].name);
+                if (cityRef.current) {
+                  cityRef.current.value =
+                    (filteredCities && filteredCities[0].name) ?? "";
+                }
                 setCityOpen(false);
                 countyRef.current?.focus();
               } else if (e.key === "Tab") {
                 setCurrentCity(filteredCities && filteredCities[0].name);
-                setCityValue(filteredCities && filteredCities[0].name);
+
+                if (cityRef.current) {
+                  cityRef.current.value =
+                    (filteredCities && filteredCities[0].name) ?? "";
+                }
                 setCityOpen(false);
                 countyRef.current?.click();
               } else if (e.key === "Backspace") {
@@ -184,16 +187,16 @@ export default function Nav() {
             onFocus={() => {
               setCityOpen(false);
               setCountyOpen(true);
-              setCountyValue("");
             }}
             onKeyDown={(e) => {
               if (e.key === "Enter" || e.key === "Tab") {
                 setCurrentCounty(
                   filteredCounties_2 && filteredCounties_2[0].name,
                 );
-                setCountyValue(
-                  filteredCounties_2 && filteredCounties_2[0].name,
-                );
+                if (countyRef.current) {
+                  countyRef.current.value =
+                    (filteredCounties_2 && filteredCounties_2[0].name) ?? "";
+                }
                 setCountyOpen(false);
                 setSendZipCode(
                   (filteredCounties_2 &&
@@ -201,7 +204,6 @@ export default function Nav() {
                     "",
                 );
               } else if (e.key === "Backspace") {
-                setCountyValue("");
                 setCountyOpen(true);
               }
             }}
@@ -218,55 +220,7 @@ export default function Nav() {
           )}
         </div>
       </div>
-
-      {weatherData2 ? (
-        <div
-          className={`flex h-full basis-2/3 rounded-2xl  font-openSans  font-black text-white`}
-        >
-          <div
-            className={`grid basis-2/3 select-none grid-cols-2 items-center justify-items-center rounded-l-2xl bg-blue-500`}
-          >
-            <ul className={`text-end text-5xl`}>
-              {currentCounty && weatherData2 && (
-                <>
-                  <li className={`capitalize`}>
-                    {currentCounty?.toLocaleLowerCase()}
-                  </li>
-                  <li className={`capitalize`}>
-                    {currentCity?.toLocaleLowerCase()}
-                  </li>
-                </>
-              )}
-            </ul>
-
-            {weatherData2 && (
-              <div className={`text-8xl`}>
-                {weatherData2?.main.temp.toFixed(1)}°
-              </div>
-            )}
-          </div>
-          <div
-            className={`flex basis-1/3 items-center justify-center rounded-r-2xl bg-black text-xl`}
-          >
-            <WeatherIcons.ClearSky />
-          </div>
-        </div>
-      ) : (
-        <div
-          className={`flex h-full basis-2/3 rounded-2xl  font-openSans  font-black text-white`}
-        >
-          <div
-            className={`flex basis-2/3 select-none items-center justify-center rounded-l-2xl bg-blue-500 text-5xl`}
-          >
-            <span className={`animate-pulse`}>{inputTexts[0]}</span>
-          </div>
-          <div
-            className={`flex basis-1/3 items-center justify-center rounded-r-2xl bg-black text-xl`}
-          >
-            <WeatherIcons.ClearSky />
-          </div>
-        </div>
-      )}
+      <Weather />
     </nav>
   );
 }

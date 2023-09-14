@@ -1,7 +1,7 @@
 import Nav from "./components/header/nav/nav";
 import { useCallback, useEffect, useState } from "react";
 import axios from "axios";
-import { myStore } from "../src/store";
+import { myStore, themeStore } from "../src/store";
 import Main from "./components/main/main";
 import Footer from "./components/footer/footer";
 
@@ -14,6 +14,8 @@ export default function App() {
     setWeatherData,
     setWeatherData2,
   } = myStore();
+
+  const { theme } = themeStore();
 
   const fetchDB = useCallback(async () => {
     const response = await axios.get("/data.json");
@@ -92,10 +94,16 @@ export default function App() {
   }, [fetchURL2]);
 
   return (
-    <main className={`container m-auto flex h-full w-full flex-col`}>
-      <Nav />
-      <Main />
-      <Footer />
+    <main
+      className={`${
+        theme === "light" ? "bg-mainThemeLight" : "bg-mainThemeDark"
+      } px-10 transition-colors duration-700`}
+    >
+      <div className={`container m-auto flex h-screen w-full flex-col`}>
+        <Nav />
+        <Main />
+        <Footer />
+      </div>
     </main>
   );
 }

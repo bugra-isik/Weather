@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         openSans: "'DM Sans', sans-serif",
       },
+      colors: {
+        mainThemeDark: "#101010",
+        mainThemeLight: "#f9fafb",
+      },
     },
   },
   plugins: [],

@@ -40,7 +40,7 @@ export interface WeatherData {
 }
 
 interface WeatherData2 {
-  weather: [{ description: string }];
+  weather: [{ description: string; icon: string }];
   main: { temp: number; humidity: number };
   wind: { speed: number };
 }
@@ -58,6 +58,8 @@ interface Store {
   setWeatherData: (x: WeatherData) => void;
   weatherData2: WeatherData2 | undefined;
   setWeatherData2: (x: WeatherData2) => void;
+  currentCity: undefined | string;
+  setCurrentCity: (x: string | undefined) => void;
   currentCounty: undefined | string;
   setCurrentCounty: (x: string | undefined) => void;
 }
@@ -80,6 +82,8 @@ const myStore = create<Store>((set) => ({
   setWeatherData: (x) => set(() => ({ weatherData: x })),
   weatherData2: undefined,
   setWeatherData2: (x) => set(() => ({ weatherData2: x })),
+  currentCity: "",
+  setCurrentCity: (x) => set(() => ({ currentCity: x })),
   currentCounty: undefined,
   setCurrentCounty: (x) => set(() => ({ currentCounty: x })),
 }));
