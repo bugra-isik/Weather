@@ -1,15 +1,11 @@
-import dayjs from "dayjs";
 import { myStore, themeStore } from "../../store";
-import { useEffect, useState } from "react";
-import Chart from "./charts/chart";
-import Chart3 from "./charts/chart3";
-import Chart2 from "./charts/chart2";
-import Chart4 from "./charts/chart4";
-import Chart5 from "./charts/chart5";
+import { useEffect } from "react";
+import Chart from "./chart";
+import OtherDayCharts from "./otherDayCharts";
 
 export default function Main() {
-  const { weatherData, weatherData2, currentCounty } = myStore();
-  const { theme, setTheme } = themeStore();
+  const { weatherData2 } = myStore();
+  const { setTheme } = themeStore();
 
   useEffect(() => {
     setTheme(
@@ -17,15 +13,11 @@ export default function Main() {
     );
   }, [setTheme, weatherData2?.weather]);
 
-  console.log(theme);
   return (
     <div className={`flex basis-2/3 flex-col bg-green-500`}>
       <Chart />
-      <div className={`flex basis-1/2 flex-col bg-red-700 `}>
-        <Chart2 />
-        <Chart3 />
-        <Chart4 />
-        <Chart5 />
+      <div className={`grid basis-1/2 grid-cols-2 gap-5 bg-white`}>
+        <OtherDayCharts />
       </div>
     </div>
   );

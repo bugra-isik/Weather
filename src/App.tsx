@@ -4,6 +4,7 @@ import axios from "axios";
 import { myStore, themeStore } from "../src/store";
 import Main from "./components/main/main";
 import Footer from "./components/footer/footer";
+import 'dayjs/locale/tr'
 
 export default function App() {
   const {
@@ -27,15 +28,15 @@ export default function App() {
   }, [setApi]);
 
   const apiKey = "38688aebf7e994592fd083f105e84d5f";
+  const initialZipCode = "06680";
 
   const [lat, setLat] = useState<number>();
   const [lon, setLon] = useState<number>();
   const [url, setUrl] = useState<string>();
   const [url2, setUrl2] = useState<string>();
-  //`https://api.openweathermap.org/data/2.5/weather?lat=41.0812&lon=29.0177&units=metric&appid=${apiKey}`
-
-  const zipURL = `http://api.openweathermap.org/geo/1.0/zip?zip=${sendZipCode},TR&appid=${apiKey}`;
-
+  const zipURL = `http://api.openweathermap.org/geo/1.0/zip?zip=${
+    sendZipCode ?? initialZipCode
+  },TR&appid=${apiKey}`;
   useEffect(() => {
     if (zipApi) {
       const { lat, lon } = zipApi;
@@ -51,13 +52,11 @@ export default function App() {
   }, [zipApi, lat, lon]);
 
   const fetchGeo = useCallback(async () => {
-    if (sendZipCode) {
-      await axios
-        .get(zipURL)
-        .then((e) => setZipApi(e.data))
-        .catch(() => console.log(zipURL));
-    }
-  }, [setZipApi, zipURL, sendZipCode]);
+    await axios
+      .get(zipURL)
+      .then((e) => setZipApi(e.data))
+      .catch(() => console.log(zipURL));
+  }, [setZipApi, zipURL]);
 
   const fetchURL = useCallback(async () => {
     url &&

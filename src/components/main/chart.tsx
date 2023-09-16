@@ -1,16 +1,10 @@
-import {
-  AreaChart,
-  Area,
-  XAxis,
-  YAxis,
-  Tooltip,
-  ResponsiveContainer,
-} from "recharts";
-import { myStore } from "../../../store";
+import { AreaChart, Area, XAxis, Tooltip, ResponsiveContainer } from "recharts";
+import { myStore, themeStore } from "../../store";
 import { unix } from "dayjs";
 
 export default function Chart() {
   const { weatherData } = myStore();
+  const { theme } = themeStore();
 
   const element = [];
 
@@ -25,25 +19,34 @@ export default function Chart() {
     Sıcaklık: e.main.temp_max.toFixed(1),
   }));
 
+  const localTheme = theme == "light" ? "#ffe168" : "#3b3c40";
+
   return (
-    <div className={`h-40 basis-1/2`}>
-      <ResponsiveContainer width="100%" height="100%">
+    <div className={`flex h-40 basis-1/2 items-center justify-center`}>
+      <ResponsiveContainer width="100%" height="75%">
         <AreaChart
           width={500}
           height={400}
           data={data}
           margin={{
             top: 10,
-            right: 50,
-            left: 0,
+            right: 25,
+            left: 25,
             bottom: 10,
           }}
         >
-          {/* <CartesianGrid strokeDasharray="1 1" /> */}
           <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip />
-          <Area type="natural" dataKey="Sıcaklık" stroke="#000" fill="#000" />
+          <Area
+            className="bg-red-400"
+            type="natural"
+            dataKey="Sıcaklık"
+            label={{
+              fill: `${localTheme}`,
+              padding: "40px",
+            }}
+            stroke={localTheme}
+            fill={localTheme}
+          />
         </AreaChart>
       </ResponsiveContainer>
     </div>

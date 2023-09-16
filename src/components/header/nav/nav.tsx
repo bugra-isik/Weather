@@ -62,6 +62,7 @@ export default function Nav() {
       className={`cursor-pointer select-none border-b py-3 hover:bg-blue-500`}
       onClick={() => {
         setCurrentCity(item.name);
+        setCurrentCounty("");
         setCityOpen(false);
         setCityValue(item.name);
         setCountyOpen(true);
@@ -131,6 +132,7 @@ export default function Nav() {
               handleOpenCity();
               e.currentTarget.value = "";
               countyRef.current && (countyRef.current.value = "");
+              setCityInputValue("");
             }}
             onKeyDown={(e) => {
               if (e.key === "Enter") {

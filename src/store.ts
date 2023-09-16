@@ -28,6 +28,7 @@ export interface WeatherData {
         temp: number;
         feels_like: number;
         temp_max: number;
+        temp_min: number;
         humidity: number;
       };
       weather: [
@@ -43,6 +44,7 @@ interface WeatherData2 {
   weather: [{ description: string; icon: string }];
   main: { temp: number; humidity: number };
   wind: { speed: number };
+  name: string;
 }
 
 interface Store {

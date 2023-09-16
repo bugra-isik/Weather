@@ -8,7 +8,7 @@ export default {
       },
       colors: {
         mainThemeDark: "#101010",
-        mainThemeLight: "#f9fafb",
+        mainThemeLight: "#f7fafc",
       },
     },
   },
