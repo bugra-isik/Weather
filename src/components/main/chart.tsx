@@ -1,4 +1,4 @@
-import { AreaChart, Area, XAxis, Tooltip, ResponsiveContainer } from "recharts";
+import { AreaChart, Area, XAxis, ResponsiveContainer } from "recharts";
 import { myStore, themeStore } from "../../store";
 import { unix } from "dayjs";
 

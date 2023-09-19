@@ -111,17 +111,19 @@ export default function Nav() {
   ));
 
   //////////////////////////////////////////////////////////////////////////////*
+  const inputTW =
+    "px-2 bg-theme3 placeholder:text-light text-light placeholder:font-openSans";
 
   return (
     <nav
-      className={`relative mb-5 flex basis-1/4 items-center justify-center gap-10 bg-red-500 p-5`}
+      className={`relative my-5 flex basis-1/4 items-center justify-center gap-10 rounded bg-theme1 p-5`}
     >
       <div
-        className={`flex h-full basis-1/3 items-center justify-center gap-5 rounded-2xl bg-black px-5 `}
+        className={`flex h-full basis-1/3 justify-center gap-5 rounded-2xl   px-5 `}
       >
-        <div className={`relative flex flex-col gap-y-10 `}>
+        <div className={`relative h-fit flex flex-col gap-y-10 `}>
           <input
-            className={`h-10 w-60`}
+            className={`${inputTW} h-10 w-60`}
             ref={cityRef}
             type="text"
             placeholder={inputTexts[0]}
@@ -163,7 +165,7 @@ export default function Nav() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               ref={ref}
-              className={`absolute top-14 z-10 flex h-40 w-60 flex-col overflow-scroll overflow-x-hidden bg-black text-white`}
+              className={`absolute top-14 z-10 flex h-36 w-60 flex-col overflow-scroll overflow-x-hidden bg-dark text-white`}
             >
               {cities}
             </motion.ul>
@@ -172,10 +174,10 @@ export default function Nav() {
         <div
           className={`${
             countyRef.current?.value == "" ? "cursor-no-drop" : ""
-          } relative flex flex-col  gap-y-10`}
+          } relative flex h-fit flex-col  gap-y-10`}
         >
           <input
-            className={`h-10 w-60 ${cityValue ? "" : inputClass}`}
+            className={`${inputTW} ${cityValue ? "" : inputClass} h-10 w-60`}
             ref={countyRef}
             type="text"
             placeholder={currentCity ? inputTexts[1] : inputTexts[0]}
@@ -215,7 +217,7 @@ export default function Nav() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               ref={ref}
-              className={`absolute top-14 z-10 flex h-40 w-60 flex-col overflow-scroll overflow-x-hidden bg-black text-white`}
+              className={`absolute top-14 z-10 flex h-36 w-60 flex-col overflow-scroll overflow-x-hidden bg-dark text-white`}
             >
               {counties}
             </motion.ul>

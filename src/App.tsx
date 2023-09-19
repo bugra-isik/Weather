@@ -4,7 +4,7 @@ import axios from "axios";
 import { myStore, themeStore } from "../src/store";
 import Main from "./components/main/main";
 import Footer from "./components/footer/footer";
-import 'dayjs/locale/tr'
+import "dayjs/locale/tr";
 
 export default function App() {
   const {
@@ -14,9 +14,7 @@ export default function App() {
     setZipApi,
     setWeatherData,
     setWeatherData2,
-  } = myStore();
-
-  const { theme } = themeStore();
+  } = myStore(); 
 
   const fetchDB = useCallback(async () => {
     const response = await axios.get("/data.json");
@@ -27,7 +25,7 @@ export default function App() {
     }
   }, [setApi]);
 
-  const apiKey = "38688aebf7e994592fd083f105e84d5f";
+  const apiKey = "38688aebf7e994592fd083f105e84d5f//";
   const initialZipCode = "06680";
 
   const [lat, setLat] = useState<number>();
@@ -94,9 +92,7 @@ export default function App() {
 
   return (
     <main
-      className={`${
-        theme === "light" ? "bg-mainThemeLight" : "bg-mainThemeDark"
-      } px-10 transition-colors duration-700`}
+      className={`from-grad1 to-grad2 bg-gradient-to-b px-10 transition-colors duration-700 font-openSans`}
     >
       <div className={`container m-auto flex h-screen w-full flex-col`}>
         <Nav />
