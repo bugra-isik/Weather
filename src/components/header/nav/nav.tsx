@@ -15,6 +15,10 @@ interface Districts {
   name: string;
 }
 
+const inputTW =
+  "px-2 bg-theme3 placeholder:text-light text-light placeholder:font-openSans";
+const inputListTW = "cursor-pointer select-none border-b border-black py-3 hover:bg-theme3 transition duration-300";
+
 export default function Nav() {
   const { api, setSendZipCode, setCurrentCounty, currentCity, setCurrentCity } =
     myStore();
@@ -59,7 +63,7 @@ export default function Nav() {
   const cities = filteredCities?.map((item: { name: string }) => (
     <motion.li
       key={item.name}
-      className={`cursor-pointer select-none border-b py-3 hover:bg-blue-500`}
+      className={inputListTW}
       onClick={() => {
         setCurrentCity(item.name);
         setCurrentCounty("");
@@ -95,7 +99,7 @@ export default function Nav() {
   const counties = filteredCounties_2?.map((item) => (
     <li
       key={item.name}
-      className={`cursor-pointer select-none border-b py-3 hover:bg-blue-500`}
+      className={inputListTW}
       onClick={() => {
         if (item.name) {
           setCurrentCounty(item.name);
@@ -111,8 +115,6 @@ export default function Nav() {
   ));
 
   //////////////////////////////////////////////////////////////////////////////*
-  const inputTW =
-    "px-2 bg-theme3 placeholder:text-light text-light placeholder:font-openSans";
 
   return (
     <nav
@@ -121,7 +123,7 @@ export default function Nav() {
       <div
         className={`flex h-full basis-1/3 justify-center gap-5 rounded-2xl   px-5 `}
       >
-        <div className={`relative h-fit flex flex-col gap-y-10 `}>
+        <div className={`relative flex h-fit flex-col gap-y-10 `}>
           <input
             className={`${inputTW} h-10 w-60`}
             ref={cityRef}

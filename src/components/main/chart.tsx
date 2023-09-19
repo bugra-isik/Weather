@@ -6,21 +6,21 @@ export default function Chart() {
   const { weatherData } = myStore();
   const { theme } = themeStore();
 
+  
   const element = [];
-
+  
   if (weatherData?.list) {
     for (let i = 0; i < weatherData?.list.length; i += 8) {
       element.push(weatherData?.list.slice(i, i + 8));
     }
   }
-
+  
   const data = element[0]?.map((e) => ({
     name: unix(e.dt).format("HH:mm"),
     Sıcaklık: e.main.temp_max.toFixed(1),
   }));
-
-  const localTheme = theme == "light" ? "#ffe168" : "#3b3c40";
-
+  
+  const localThemeTW = theme == "light" ? "#ffe168" : "#3b3c40";
   return (
     <div className={`flex h-40 basis-1/2 items-center justify-center`}>
       <ResponsiveContainer width="100%" height="75%">
@@ -35,17 +35,18 @@ export default function Chart() {
             bottom: 10,
           }}
         >
-          <XAxis dataKey="name" />
+          <XAxis dataKey="name" stroke="#13588B" />
           <Area
-            className="bg-red-400"
             type="natural"
             dataKey="Sıcaklık"
             label={{
-              fill: `${localTheme}`,
+              fill: `#355773`,
               padding: "40px",
+              
+              
             }}
-            stroke={localTheme}
-            fill={localTheme}
+            stroke={localThemeTW}
+            fill={localThemeTW}
           />
         </AreaChart>
       </ResponsiveContainer>

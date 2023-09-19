@@ -1,6 +1,6 @@
 import { unix } from "dayjs";
 import { myStore } from "../../store";
-import { iconObject } from "../header/nav/weather";
+import { iconObject } from "../header/nav/iconObjects";
 
 export default function OtherDayCharts() {
   const { weatherData } = myStore();
@@ -22,12 +22,14 @@ export default function OtherDayCharts() {
     return (
       <ul
         key={index}
-        className={`flex items-center justify-center bg-theme5 text-5xl text-light `}
+        className={`flex items-center justify-evenly bg-theme5 text-light text-2xl 2xl:text-5xl `}
       >
         <li>{day}</li>
-        <li>{tempMax}</li>
-        <li> /</li>
-        <li>{tempMin}°C</li>
+        <div className={`flex`}>
+          <li>{tempMax}</li>
+          <li> /</li>
+          <li>{tempMin}°C</li>
+        </div>
         <li className={`w-1/5`}>{iconObject[icon]}</li>
       </ul>
     );
