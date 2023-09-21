@@ -102,16 +102,19 @@ export default function App() {
 
   return (
     <main
-      className={`flex h-screen w-full items-center justify-center bg-gradient-to-b from-grad1 to-grad2 px-10 font-openSans transition-colors duration-700`}
+      className={`flex h-screen w-screen items-center justify-center font-openSans sm:px-10`}
     >
+      <div
+        className={`fixed -z-50 h-full w-full bg-gradient-to-b from-grad1 to-grad2`}
+      />
       {spinner ? (
-        <div className={`container m-auto flex h-screen w-full flex-col`}>
+        <div className={`container flex flex-col justify-between h-full w-full`}>
           <Nav />
           <Main />
           <Footer />
         </div>
       ) : (
-        <div className={`h-40 w-40`}>
+        <div className={`h-40 w-40 lg:h-20 lg:w-20 xl:h-40 xl:w-40`}>
           <WeatherIcons.Spinner />
         </div>
       )}

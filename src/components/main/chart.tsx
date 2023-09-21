@@ -22,7 +22,7 @@ export default function Chart() {
   
   const localThemeTW = theme == "light" ? "#ffe168" : "#3b3c40";
   return (
-    <div className={`flex h-40 basis-1/2 items-center justify-center`}>
+    <div className={`flex h-40 basis-1/3 lg:basis-1/2 items-center justify-center`}>
       <ResponsiveContainer width="100%" height="75%">
         <AreaChart
           width={500}
@@ -32,7 +32,7 @@ export default function Chart() {
             top: 10,
             right: 25,
             left: 25,
-            bottom: 10,
+            bottom: 0,
           }}
         >
           <XAxis dataKey="name" stroke="#13588B" />

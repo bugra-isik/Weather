@@ -26,7 +26,7 @@ const iconDescriptions: Record<string, string> = {
   "few clouds": "Az bulutlu",
   "scattered clouds": "Bulutlu",
   "overcast clouds": "Parçalı bulutlu",
-  drizzle: "Hafif yağmurlu",
+  "light rain": "Hafif yağmurlu",
   rain: "Yağmurlu",
   "shower rain": "Sağanak yağmurlu",
   thunderstorm: "Gök gürültülü fırtına",

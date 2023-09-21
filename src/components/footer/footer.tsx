@@ -1,16 +1,18 @@
 export default function Footer() {
-  const localThemeTW = "text-light transition select-none text-sm 2xl:text-base";
+  const localThemeTW =
+    "text-light transition select-none text-xs sm:text-base lg:text-sm 2xl:text-base";
 
   return (
     <>
       <div
-        className={`${localThemeTW} container m-auto flex basis-1/12 flex-row-reverse items-center justify-between`}
+        className={`${localThemeTW} container m-auto flex flex-col-reverse items-center justify-between gap-5 py-5 sm:h-32 md:h-0 md:basis-1/12 lg:flex-row-reverse`}
       >
         <p>
           Copyright &copy; 2023 Buğra Işık Hava Durumu. Tüm hakları saklıdır.
         </p>
-        <div className={`flex gap-2`}>
+        <div className={`flex gap-4 sm:gap-6 md:gap-4 lg:gap-2 `}>
           <p className={"select-none text-light/25"}>Powered by</p>
+
           <a
             className={`${localThemeTW} hover:text-[#eb6e4b]`}
             target="_blank"

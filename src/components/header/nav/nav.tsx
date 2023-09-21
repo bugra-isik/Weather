@@ -15,10 +15,6 @@ interface Districts {
   name: string;
 }
 
-const inputTW =
-  "px-2 bg-theme3 placeholder:text-light text-light placeholder:font-openSans";
-const inputListTW = "cursor-pointer select-none border-b border-black py-3 hover:bg-theme3 transition duration-300";
-
 export default function Nav() {
   const { api, setSendZipCode, setCurrentCounty, currentCity, setCurrentCity } =
     myStore();
@@ -47,6 +43,16 @@ export default function Nav() {
   const handleOpenCity = () => setCityOpen(true);
   const handleOpenCounty = () => setCountyOpen(true);
 
+  //!-///////////////////////--TAILWIND--//////////////////////////////////////////////////
+
+  const inputTW =
+    "h-10 w-36 sm:w-60 lg:w-40 xl:w-60 px-2 bg-theme3 placeholder:text-light/50 placeholder:font-light text-light";
+  const inputListTW =
+    "cursor-pointer select-none border-b border-black py-3 hover:bg-theme3";
+
+  const ulTW =
+    "absolute top-14 z-10 flex h-fit max-h-36 w-36 sm:w-60 lg:w-40 xl:w-60 flex-col overflow-scroll overflow-x-hidden bg-dark text-white drop-shadow-2xl";
+
   //!-///////////////////////--CITY--/////////////////////////////////////////////////////
 
   useEffect(() => {
@@ -60,10 +66,10 @@ export default function Nav() {
     setFilteredCities(data);
   }, [api, cityInputValue]);
 
-  const cities = filteredCities?.map((item: { name: string }) => (
+  const cities = filteredCities?.map((item: { name: string }, index) => (
     <motion.li
       key={item.name}
-      className={inputListTW}
+      className={`${inputListTW} ${index == 0 && "bg-theme4"}`}
       onClick={() => {
         setCurrentCity(item.name);
         setCurrentCounty("");
@@ -96,10 +102,10 @@ export default function Nav() {
     setFilteredCounties_2(data);
   }, [countyInputValue, filteredCounties]);
 
-  const counties = filteredCounties_2?.map((item) => (
+  const counties = filteredCounties_2?.map((item, index) => (
     <li
       key={item.name}
-      className={inputListTW}
+      className={`${inputListTW} ${index == 0 && "bg-theme4"}`}
       onClick={() => {
         if (item.name) {
           setCurrentCounty(item.name);
@@ -118,14 +124,14 @@ export default function Nav() {
 
   return (
     <nav
-      className={`relative my-5 flex basis-1/4 items-center justify-center gap-10 rounded bg-theme1 p-5`}
+      className={`relative mb-5 flex basis-1/4 flex-col justify-start gap-10 rounded bg-theme1 p-5 sm:my-5 lg:flex-row lg:items-center lg:justify-center xl:p-5`}
     >
       <div
-        className={`flex h-full basis-1/3 justify-center gap-5 rounded-2xl   px-5 `}
+        className={`flex h-full basis-1/3 justify-center items-start gap-5 rounded-2xl sm:flex-row sm:justify-between lg:justify-center lg:px-5 `}
       >
-        <div className={`relative flex h-fit flex-col gap-y-10 `}>
+        <div className={`relative flex h-fit flex-col gap-y-10`}>
           <input
-            className={`${inputTW} h-10 w-60`}
+            className={inputTW}
             ref={cityRef}
             type="text"
             placeholder={inputTexts[0]}
@@ -167,7 +173,7 @@ export default function Nav() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               ref={ref}
-              className={`absolute top-14 z-10 flex h-36 w-60 flex-col overflow-scroll overflow-x-hidden bg-dark text-white`}
+              className={ulTW}
             >
               {cities}
             </motion.ul>
@@ -176,10 +182,10 @@ export default function Nav() {
         <div
           className={`${
             countyRef.current?.value == "" ? "cursor-no-drop" : ""
-          } relative flex h-fit flex-col  gap-y-10`}
+          } relative flex h-fit flex-col gap-y-10`}
         >
           <input
-            className={`${inputTW} ${cityValue ? "" : inputClass} h-10 w-60`}
+            className={`${inputTW} ${cityValue ? "" : inputClass}`}
             ref={countyRef}
             type="text"
             placeholder={currentCity ? inputTexts[1] : inputTexts[0]}
@@ -219,7 +225,7 @@ export default function Nav() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               ref={ref}
-              className={`absolute top-14 z-10 flex h-36 w-60 flex-col overflow-scroll overflow-x-hidden bg-dark text-white`}
+              className={ulTW}
             >
               {counties}
             </motion.ul>
