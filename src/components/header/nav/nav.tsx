@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { City, myStore } from "../../../store";
-import { useClickAway } from "@uidotdev/usehooks";
+import { useClickAway, useWindowSize } from "@uidotdev/usehooks";
 import { motion } from "framer-motion";
 import Weather from "./weather";
 import { inputClass, inputTexts } from "./constants";
@@ -46,7 +46,7 @@ export default function Nav() {
   //!-///////////////////////--TAILWIND--//////////////////////////////////////////////////
 
   const inputTW =
-    "h-10 w-36 sm:w-60 lg:w-40 xl:w-60 px-2 bg-theme3 placeholder:text-light/50 placeholder:font-light text-light";
+    "h-10 w-36 sm:w-60 lg:w-40 xl:w-60 px-2 bg-theme3 placeholder:text-sm sm:placeholder:text-base placeholder:text-light/50 placeholder:font-light text-light";
   const inputListTW =
     "cursor-pointer select-none border-b border-black py-3 hover:bg-theme3";
 
@@ -122,14 +122,26 @@ export default function Nav() {
 
   //////////////////////////////////////////////////////////////////////////////*
 
+  let navSmTW;
+  const windowSize = useWindowSize();
+  const sm = 650;
+
+  if ((windowSize.width ?? sm + 1) < sm) {
+    navSmTW = "bg-gradient-to-b from-grad1 to-grad2";
+  } else {
+    navSmTW = "";
+  }
+
   return (
     <nav
-      className={`relative mb-5 flex basis-1/4 flex-col justify-start gap-10 rounded bg-theme1 p-5 sm:my-5 lg:flex-row lg:items-center lg:justify-center xl:p-5`}
+      className={`${navSmTW} relative flex basis-1/4 flex-col justify-start gap-10 bg-theme1 p-5 sm:my-5 sm:rounded lg:flex-row lg:items-center lg:justify-center xl:p-5`}
     >
       <div
-        className={`flex h-full basis-1/3 justify-center items-start gap-5 rounded-2xl sm:flex-row sm:justify-between lg:justify-center lg:px-5 `}
+        className={`grid h-full grid-cols-2 gap-5 rounded-2xl sm:basis-1/3 md:gap-10 lg:flex lg:justify-center lg:px-5 `}
       >
-        <div className={`relative flex h-fit flex-col gap-y-10`}>
+        <div
+          className={`relative flex h-fit flex-col gap-y-10 justify-self-end`}
+        >
           <input
             className={inputTW}
             ref={cityRef}

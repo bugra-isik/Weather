@@ -5,12 +5,12 @@ export default function Footer() {
   return (
     <>
       <div
-        className={`${localThemeTW} container m-auto flex flex-col-reverse items-center justify-between gap-5 py-5 sm:h-32 md:h-0 md:basis-1/12 lg:flex-row-reverse`}
+        className={`${localThemeTW} container m-auto flex flex-col-reverse items-center justify-between gap-5 pt-5 sm:h-32 md:h-0 md:basis-1/12 lg:flex-row-reverse`}
       >
-        <p>
+        <p className={`w-full text-center py-3 sm:p-0 bg-theme4 sm:w-auto sm:bg-transparent`}>
           Copyright &copy; 2023 Buğra Işık Hava Durumu. Tüm hakları saklıdır.
         </p>
-        <div className={`flex gap-4 sm:gap-6 md:gap-4 lg:gap-2 `}>
+        <div className={`flex gap-4 items-center sm:gap-6 md:gap-4 lg:gap-2 lg:text-xs whitespace-nowrap`}>
           <p className={"select-none text-light/25"}>Powered by</p>
 
           <a

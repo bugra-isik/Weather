@@ -22,14 +22,16 @@ export default function OtherDayCharts() {
     return (
       <ul
         key={index}
-        className={`grid grid-cols-2 h-14 items-center bg-theme5 px-10 text-sm font-extralight text-light/75 sm:h-auto sm:w-auto sm:text-2xl md:h-32 md:text-4xl lg:h-auto lg:justify-evenly lg:p-0 lg:px-5 lg:text-3xl 2xl:text-5xl`}
+        className={`bg-gradient-to-r from-theme5 to-theme4 grid items-center h-14 grid-cols-2  text-sm font-extralight text-light/75 sm:h-auto sm:w-auto sm:text-2xl md:h-32 md:text-4xl lg:h-auto lg:justify-evenly lg:p-0 lg:px-5 lg:text-2xl 2xl:text-4xl`}
       >
-        <li>{day}</li>
+        <li className={`pl-5`}>{day}</li>
         <li
-          className={`flex items-center justify-between gap-5 whitespace-nowrap`}
+          className={`grid grid-cols-2 items-center gap-1 md:gap-20 whitespace-nowrap`}
         >
           <div>{`${tempMax} / ${tempMin}°C`}</div>
-          <li className={`w-10 sm:w-10 md:w-14 lg:w-14 xl:w-16 2xl:w-20`}>{iconObject[icon]}</li>
+          <li className={`w-7 sm:w-10 md:w-14 lg:w-12 xl:w-16 2xl:w-16`}>
+            {iconObject[icon]}
+          </li>
         </li>
       </ul>
     );

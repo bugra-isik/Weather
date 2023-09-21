@@ -14,7 +14,7 @@ export default function Main() {
   }, [setTheme, weatherData2?.weather]);
 
   return (
-    <div className={`flex basis-2/3 flex-col rounded bg-theme1 p-5`}>
+    <div className={`flex basis-2/3 flex-col sm:rounded bg-theme1 p-5`}>
       <Chart />
 
       <OtherDayCharts />
