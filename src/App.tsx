@@ -36,7 +36,7 @@ export default function App() {
   const [lon, setLon] = useState<number>();
   const [url, setUrl] = useState<string>();
   const [url2, setUrl2] = useState<string>();
-  const zipURL = `http://api.openweathermap.org/geo/1.0/zip?zip=${
+  const zipURL = `https://api.openweathermap.org/geo/1.0/zip?zip=${
     sendZipCode ?? initialZipCode
   },TR&appid=${apiKey}`;
   useEffect(() => {
