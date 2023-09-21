@@ -29,9 +29,9 @@ export default function OtherDayCharts() {
           className={`grid grid-cols-2 items-center gap-1 md:gap-20 whitespace-nowrap`}
         >
           <div>{`${tempMax} / ${tempMin}°C`}</div>
-          <li className={`w-7 sm:w-10 md:w-14 lg:w-12 xl:w-16 2xl:w-16`}>
+          <div className={`w-7 sm:w-10 md:w-14 lg:w-12 xl:w-16 2xl:w-16`}>
             {iconObject[icon]}
-          </li>
+          </div>
         </li>
       </ul>
     );
