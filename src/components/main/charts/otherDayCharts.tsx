@@ -1,6 +1,6 @@
 import { unix } from "dayjs";
-import { myStore } from "../../store";
-import { iconObject } from "../header/nav/iconObjects";
+import { myStore } from "../../../store";
+import { iconObject } from "../../header/nav/iconObjects";
 
 export default function OtherDayCharts() {
   const { weatherData } = myStore();
@@ -22,7 +22,7 @@ export default function OtherDayCharts() {
     return (
       <ul
         key={index}
-        className={`bg-gradient-to-r from-theme5 to-theme4 grid items-center h-14 grid-cols-2  text-sm font-extralight text-light/75 sm:h-auto sm:w-auto sm:text-2xl md:h-32 md:text-4xl lg:h-auto lg:justify-evenly lg:p-0 lg:px-5 lg:text-2xl 2xl:text-4xl`}
+        className={`bg-gradient-to-r from-theme5 to-theme4 grid items-center h-14 grid-cols-2  text-sm text-light sm:h-auto sm:w-auto sm:text-2xl md:h-32 md:text-4xl lg:h-auto lg:justify-evenly lg:p-0 lg:px-5 lg:text-2xl 2xl:text-4xl`}
       >
         <li className={`pl-5`}>{day}</li>
         <li

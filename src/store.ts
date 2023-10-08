@@ -1,26 +1,21 @@
 import { create } from "zustand";
 
-export interface City {
+export type City = {
+  name: string;
   counties: [
     {
-      districts: [
-        {
-          name: string;
-          neighborhoods: [{ code: string; name: string }];
-        },
-      ];
       name: string;
+      code: string;
     },
   ];
-  name: string;
-}
+};
 
-interface ZipApi {
+type ZipApi = {
   lat: number;
   lon: number;
-}
+};
 
-export interface WeatherData {
+export type WeatherData = {
   list: [
     {
       dt: number;
@@ -38,16 +33,16 @@ export interface WeatherData {
       sys: { pod: string };
     },
   ];
-}
+};
 
-interface WeatherData2 {
+type WeatherData2 = {
   weather: [{ description: string; icon: string }];
   main: { temp: number; humidity: number };
   wind: { speed: number };
   name: string;
-}
+};
 
-interface Store {
+type Store = {
   api: City[];
   setApi: (x: City[]) => void;
   current: string;
@@ -64,12 +59,14 @@ interface Store {
   setCurrentCity: (x: string | undefined) => void;
   currentCounty: undefined | string;
   setCurrentCounty: (x: string | undefined) => void;
-}
+  geoCityName: undefined | string;
+  setGeoCityName: (x: string | undefined) => void;
+};
 
-interface Theme {
+type Theme = {
   theme: string;
   setTheme: (x: string) => void;
-}
+};
 
 const myStore = create<Store>((set) => ({
   api: [],
@@ -88,6 +85,8 @@ const myStore = create<Store>((set) => ({
   setCurrentCity: (x) => set(() => ({ currentCity: x })),
   currentCounty: undefined,
   setCurrentCounty: (x) => set(() => ({ currentCounty: x })),
+  geoCityName: undefined,
+  setGeoCityName: (x) => set(() => ({ geoCityName: x })),
 }));
 
 const themeStore = create<Theme>((set) => ({

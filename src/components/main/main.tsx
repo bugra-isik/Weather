@@ -1,7 +1,7 @@
 import { myStore, themeStore } from "../../store";
 import { useEffect } from "react";
-import Chart from "./chart";
-import OtherDayCharts from "./otherDayCharts";
+import Chart from "./charts/chart";
+import OtherDayCharts from "./charts/otherDayCharts";
 
 export default function Main() {
   const { weatherData2 } = myStore();
@@ -16,7 +16,6 @@ export default function Main() {
   return (
     <div className={`flex basis-2/3 flex-col sm:rounded bg-theme1 p-5`}>
       <Chart />
-
       <OtherDayCharts />
     </div>
   );

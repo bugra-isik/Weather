@@ -6,13 +6,8 @@ import Weather from "./weather";
 import { inputClass, inputTexts } from "./constants";
 
 interface Districts {
-  districts: [
-    {
-      name: string;
-      neighborhoods: [{ code: string; name: string }];
-    },
-  ];
   name: string;
+  code: string;
 }
 
 export default function Nav() {
@@ -48,7 +43,7 @@ export default function Nav() {
   const inputTW =
     "h-10 w-36 sm:w-60 lg:w-40 xl:w-60 px-2 bg-theme3 placeholder:text-sm sm:placeholder:text-base placeholder:text-light/50 placeholder:font-light text-light";
   const inputListTW =
-    "cursor-pointer select-none border-b border-black py-3 hover:bg-theme3";
+    "cursor-pointer select-none pl-2 border-b border-black py-3 hover:bg-theme3 ";
 
   const ulTW =
     "absolute top-14 z-10 flex h-fit max-h-36 w-36 sm:w-60 lg:w-40 xl:w-60 flex-col overflow-scroll overflow-x-hidden bg-dark text-white drop-shadow-2xl";
@@ -66,10 +61,13 @@ export default function Nav() {
     setFilteredCities(data);
   }, [api, cityInputValue]);
 
+  const [cityTriger, setCityTriger] = useState<boolean>(true);
   const cities = filteredCities?.map((item: { name: string }, index) => (
     <motion.li
       key={item.name}
-      className={`${inputListTW} ${index == 0 && "bg-theme4"}`}
+      className={`${inputListTW} ${index == 0 && cityTriger && "bg-theme3"}`}
+      onMouseEnter={() => setCityTriger(false)}
+      onMouseLeave={() => setCityTriger(true)}
       onClick={() => {
         setCurrentCity(item.name);
         setCurrentCounty("");
@@ -102,18 +100,20 @@ export default function Nav() {
     setFilteredCounties_2(data);
   }, [countyInputValue, filteredCounties]);
 
+  const [countyTriger, setCountyTriger] = useState<boolean>(true);
   const counties = filteredCounties_2?.map((item, index) => (
     <li
       key={item.name}
-      className={`${inputListTW} ${index == 0 && "bg-theme4"}`}
+      className={`${inputListTW} ${index == 0 && countyTriger && "bg-theme3"}`}
+      onMouseEnter={() => setCountyTriger(false)}
+      onMouseLeave={() => setCountyTriger(true)}
       onClick={() => {
         if (item.name) {
           setCurrentCounty(item.name);
           countyRef.current && (countyRef.current.value = item.name);
         }
         setCountyOpen(false);
-        item.districts[0].neighborhoods[0].code !== undefined &&
-          setSendZipCode(item.districts[0].neighborhoods[0].code);
+        setSendZipCode(item.code);
       }}
     >
       {item.name}
@@ -223,9 +223,7 @@ export default function Nav() {
                 }
                 setCountyOpen(false);
                 setSendZipCode(
-                  (filteredCounties_2 &&
-                    filteredCounties_2[0].districts[0].neighborhoods[0].code) ??
-                    "",
+                  (filteredCounties_2 && filteredCounties_2[0].code) ?? "",
                 );
               } else if (e.key === "Backspace") {
                 setCountyOpen(true);

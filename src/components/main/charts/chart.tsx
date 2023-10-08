@@ -1,5 +1,5 @@
 import { AreaChart, Area, XAxis, ResponsiveContainer } from "recharts";
-import { myStore, themeStore } from "../../store";
+import { myStore, themeStore } from "../../../store";
 import { unix } from "dayjs";
 import { useWindowSize } from "@uidotdev/usehooks";
 
@@ -37,8 +37,6 @@ export default function Chart() {
     >
       <ResponsiveContainer width="100%" height="75%">
         <AreaChart
-          width={500}
-          height={400}
           data={data}
           margin={{
             top: 10,
@@ -52,12 +50,14 @@ export default function Chart() {
             stroke={theme == "light" ? "#ffe168" : "#13588B"}
           />
           <Area
+          
             type="natural"
             dataKey="Sıcaklık"
             label={{
-              fill: `${theme == "light" ? "#CCB454" : "#355773"}`,
-              padding: "40px",
+              fill: `${theme == "light" ? "#CCB454" : "#355773"}`,              
               fontSize: chartFontSize,
+              dy: -10,
+             
             }}
             stroke={localThemeTW}
             fill={localThemeTW}

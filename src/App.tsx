@@ -5,7 +5,8 @@ import { myStore } from "../src/store";
 import Main from "./components/main/main";
 import Footer from "./components/footer/footer";
 import "dayjs/locale/tr";
-import { WeatherIcons } from "./components/header/nav/svg/SVG";
+import { useGeolocation } from "@uidotdev/usehooks";
+import Spinner from "./components/ui/spinner";
 
 export default function App() {
   const {
@@ -15,10 +16,10 @@ export default function App() {
     setZipApi,
     setWeatherData,
     setWeatherData2,
-    weatherData2,
+    setGeoCityName,
   } = myStore();
 
-  const [spinner, setSpinner] = useState(false);
+  const [spinner, setSpinner] = useState<boolean>(false);
 
   const fetchDB = useCallback(async () => {
     const response = await axios.get("/data.json");
@@ -32,13 +33,51 @@ export default function App() {
   const apiKey = "38688aebf7e994592fd083f105e84d5f";
   const initialZipCode = "06680";
 
-  const [lat, setLat] = useState<number>();
-  const [lon, setLon] = useState<number>();
+  const [lat, setLat] = useState<number | null>();
+  const [lon, setLon] = useState<number | null>();
   const [url, setUrl] = useState<string>();
   const [url2, setUrl2] = useState<string>();
-  const zipURL = `https://api.openweathermap.org/geo/1.0/zip?zip=${
-    sendZipCode ?? initialZipCode
-  },TR&appid=${apiKey}`;
+  let zipURL = `https://api.openweathermap.org/geo/1.0/zip?zip=${sendZipCode},TR&appid=${apiKey}`;
+
+  /* -------------------------------------------------------------------------- */
+  /*                                 Geolocation                                */
+  /* -------------------------------------------------------------------------- */
+
+  const reverseURL = `http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lon}&limit=5&appid=${apiKey}`;
+  const { latitude, longitude, loading, error } = useGeolocation();
+
+  if (error?.code === 1) {
+    zipURL = `https://api.openweathermap.org/geo/1.0/zip?zip=${initialZipCode},TR&appid=${apiKey}`;
+  }
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        if (!loading) {
+          setLat(latitude);
+          setLon(longitude);
+
+          const response = await axios.get(reverseURL);
+
+          console.log("There is no problem");
+          setGeoCityName(response.data[0].name);
+        }
+      } catch (error) {
+        console.log("GeoLocation request error");
+      } finally {
+        !loading &&
+          setTimeout(() => {
+            setSpinner(true);
+          }, 2000);
+      }
+    };
+
+    fetchData();
+  }, [loading, latitude, longitude, reverseURL, setGeoCityName]);
+
+  /* -------------------------------------------------------------------------- */
+  /*                            WeatherAPI URL Setter                           */
+  /* -------------------------------------------------------------------------- */
   useEffect(() => {
     if (zipApi) {
       const { lat, lon } = zipApi;
@@ -94,12 +133,6 @@ export default function App() {
     fetchURL2();
   }, [fetchURL2]);
 
-  if (weatherData2) {
-    setTimeout(() => {
-      setSpinner(true);
-    }, 2000);
-  }
-
   return (
     <main
       className={`flex h-screen w-screen items-center justify-center font-openSans sm:px-10`}
@@ -108,15 +141,15 @@ export default function App() {
         className={`fixed -z-50 h-full w-full bg-gradient-to-b from-grad1 to-grad2`}
       />
       {spinner ? (
-        <div className={`container flex flex-col justify-between h-full w-full`}>
+        <div
+          className={`container flex h-full w-full flex-col justify-between`}
+        >
           <Nav />
           <Main />
           <Footer />
         </div>
       ) : (
-        <div className={`h-40 w-40 lg:h-20 lg:w-20 xl:h-40 xl:w-40`}>
-          <WeatherIcons.Spinner />
-        </div>
+        <Spinner setSpinner={setSpinner} spinner={spinner} />
       )}
     </main>
   );
