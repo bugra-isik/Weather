@@ -1,1 +1,1380 @@
-[{"name":"ADANA","counties":[{"name":"ALADAĞ","code":"01720"},{"name":"CEYHAN","code":"01922"},{"name":"ÇUKUROVA","code":"01360"},{"name":"FEKE","code":"01662"},{"name":"İMAMOĞLU","code":"01700"},{"name":"KARAİSALI","code":"01770"},{"name":"KARATAŞ","code":"01900"},{"name":"KOZAN","code":"01555"},{"name":"POZANTI","code":"01490"},{"name":"SAİMBEYLİ","code":"01740"},{"name":"SARIÇAM","code":"01410"},{"name":"SEYHAN","code":"01040"},{"name":"TUFANBEYLİ","code":"01642"},{"name":"YUMURTALIK","code":"01682"},{"name":"YÜREĞİR","code":"01358"}]},{"name":"ADIYAMAN","counties":[{"name":"BESNİ","code":"02300"},{"name":"ÇELİKHAN","code":"02600"},{"name":"GERGER","code":"02700"},{"name":"GÖLBAŞI","code":"02530"},{"name":"KAHTA","code":"02450"},{"name":"MERKEZ","code":"02100"},{"name":"SAMSAT","code":"02802"},{"name":"SİNCİK","code":"02920"},{"name":"TUT","code":"02352"}]},{"name":"AFYONKARAHİSAR","counties":[{"name":"BAŞMAKÇI","code":"03450"},{"name":"BAYAT","code":"03780"},{"name":"BOLVADİN","code":"03300"},{"name":"ÇAY","code":"03700"},{"name":"ÇOBANLAR","code":"03060"},{"name":"DAZKIRI","code":"03950"},{"name":"DİNAR","code":"03400"},{"name":"EMİRDAĞ","code":"03630"},{"name":"EVCİLER","code":"03960"},{"name":"HOCALAR","code":"03530"},{"name":"İHSANİYE","code":"03380"},{"name":"İSCEHİSAR","code":"03750"},{"name":"KIZILÖREN","code":"03560"},{"name":"MERKEZ","code":"03050"},{"name":"SANDIKLI","code":"03510"},{"name":"SİNANPAŞA","code":"03860"},{"name":"SULTANDAĞI","code":"03910"},{"name":"ŞUHUT","code":"03830"}]},{"name":"AĞRI","counties":[{"name":"DİYADİN","code":"04900"},{"name":"DOĞUBAYAZIT","code":"04400"},{"name":"ELEŞKİRT","code":"04600"},{"name":"HAMUR","code":"04850"},{"name":"MERKEZ","code":"04200"},{"name":"PATNOS","code":"04503"},{"name":"TAŞLIÇAY","code":"04802"},{"name":"TUTAK","code":"04702"}]},{"name":"AKSARAY","counties":[{"name":"AĞAÇÖREN","code":"68600"},{"name":"ESKİL","code":"68800"},{"name":"GÜLAĞAÇ","code":"68940"},{"name":"GÜZELYURT","code":"68500"},{"name":"MERKEZ","code":"68120"},{"name":"ORTAKÖY","code":"68601"},{"name":"SARIYAHŞİ","code":"68702"},{"name":"SULTANHANI","code":"68190"}]},{"name":"AMASYA","counties":[{"name":"GÖYNÜCEK","code":"05900"},{"name":"GÜMÜŞHACIKÖY","code":"05700"},{"name":"HAMAMÖZÜ","code":"05720"},{"name":"MERKEZ","code":"05200"},{"name":"MERZİFON","code":"05302"},{"name":"SULUOVA","code":"05502"},{"name":"TAŞOVA","code":"05802"}]},{"name":"ANKARA","counties":[{"name":"AKYURT","code":"06750"},{"name":"ALTINDAĞ","code":"06080"},{"name":"AYAŞ","code":"06710"},{"name":"BALA","code":"06720"},{"name":"BEYPAZARI","code":"06730"},{"name":"ÇAMLIDERE","code":"06740"},{"name":"ÇANKAYA","code":"06530"},{"name":"ÇUBUK","code":"06760"},{"name":"ELMADAĞ","code":"06780"},{"name":"ETİMESGUT","code":"06794"},{"name":"EVREN","code":"06770"},{"name":"GÖLBAŞI","code":"06830"},{"name":"GÜDÜL","code":"06840"},{"name":"HAYMANA","code":"06860"},{"name":"KAHRAMANKAZAN","code":"06980"},{"name":"KALECİK","code":"06870"},{"name":"KEÇİÖREN","code":"06300"},{"name":"KIZILCAHAMAM","code":"06890"},{"name":"MAMAK","code":"06620"},{"name":"NALLIHAN","code":"06920"},{"name":"POLATLI","code":"06900"},{"name":"PURSAKLAR","code":"06145"},{"name":"SİNCAN","code":"06935"},{"name":"ŞEREFLİKOÇHİSAR","code":"06950"},{"name":"YENİMAHALLE","code":"06560"}]},{"name":"ANTALYA","counties":[{"name":"AKSEKİ","code":"07630"},{"name":"AKSU","code":"07112"},{"name":"ALANYA","code":"07400"},{"name":"DEMRE","code":"07572"},{"name":"DÖŞEMEALTI","code":"07190"},{"name":"ELMALI","code":"07770"},{"name":"FİNİKE","code":"07740"},{"name":"GAZİPAŞA","code":"07900"},{"name":"GÜNDOĞMUŞ","code":"07860"},{"name":"İBRADI","code":"07680"},{"name":"KAŞ","code":"07582"},{"name":"KEMER","code":"07985"},{"name":"KEPEZ","code":"07090"},{"name":"KONYAALTI","code":"07070"},{"name":"KORKUTELİ","code":"07800"},{"name":"KUMLUCA","code":"07350"},{"name":"MANAVGAT","code":"07620"},{"name":"MURATPAŞA","code":"07050"},{"name":"SERİK","code":"07500"}]},{"name":"ARDAHAN","counties":[{"name":"ÇILDIR","code":"75400"},{"name":"DAMAL","code":"75600"},{"name":"GÖLE","code":"75700"},{"name":"HANAK","code":"75900"},{"name":"MERKEZ","code":"75100"},{"name":"POSOF","code":"75802"}]},{"name":"ARTVİN","counties":[{"name":"ARDANUÇ","code":"08300"},{"name":"ARHAVİ","code":"08200"},{"name":"BORÇKA","code":"08400"},{"name":"HOPA","code":"08600"},{"name":"KEMALPAŞA","code":"08610"},{"name":"MERKEZ","code":"08010"},{"name":"MURGUL","code":"08500"},{"name":"ŞAVŞAT","code":"08790"},{"name":"YUSUFELİ","code":"08890"}]},{"name":"AYDIN","counties":[{"name":"BOZDOĞAN","code":"09760"},{"name":"BUHARKENT","code":"09670"},{"name":"ÇİNE","code":"09500"},{"name":"DİDİM","code":"09320"},{"name":"EFELER","code":"09100"},{"name":"GERMENCİK","code":"09700"},{"name":"İNCİRLİOVA","code":"09600"},{"name":"KARACASU","code":"09370"},{"name":"KARPUZLU","code":"09540"},{"name":"KOÇARLI","code":"09970"},{"name":"KÖŞK","code":"09570"},{"name":"KUŞADASI","code":"09400"},{"name":"KUYUCAK","code":"09930"},{"name":"NAZİLLİ","code":"09800"},{"name":"SÖKE","code":"09200"},{"name":"SULTANHİSAR","code":"09470"},{"name":"YENİPAZAR","code":"09350"}]},{"name":"BALIKESİR","counties":[{"name":"ALTIEYLÜL","code":"10100"},{"name":"AYVALIK","code":"10405"},{"name":"BALYA","code":"10840"},{"name":"BANDIRMA","code":"10245"},{"name":"BİGADİÇ","code":"10440"},{"name":"BURHANİYE","code":"10700"},{"name":"DURSUNBEY","code":"10800"},{"name":"EDREMİT","code":"10390"},{"name":"ERDEK","code":"10502"},{"name":"GÖMEÇ","code":"10717"},{"name":"GÖNEN","code":"10900"},{"name":"HAVRAN","code":"10560"},{"name":"İVRİNDİ","code":"10785"},{"name":"KARESİ","code":"10020"},{"name":"KEPSUT","code":"10660"},{"name":"MANYAS","code":"10472"},{"name":"MARMARA","code":"10940"},{"name":"SAVAŞTEPE","code":"10582"},{"name":"SINDIRGI","code":"10332"},{"name":"SUSURLUK","code":"10610"}]},{"name":"BARTIN","counties":[{"name":"AMASRA","code":"74300"},{"name":"KURUCAŞİLE","code":"74500"},{"name":"MERKEZ","code":"74100"},{"name":"ULUS","code":"74610"}]},{"name":"BATMAN","counties":[{"name":"BEŞİRİ","code":"72200"},{"name":"GERCÜŞ","code":"72300"},{"name":"HASANKEYF","code":"72350"},{"name":"KOZLUK","code":"72420"},{"name":"MERKEZ","code":"72030"},{"name":"SASON","code":"72502"}]},{"name":"BAYBURT","counties":[{"name":"AYDINTEPE","code":"69500"},{"name":"DEMİRÖZÜ","code":"69400"},{"name":"MERKEZ","code":"69300"}]},{"name":"BİLECİK","counties":[{"name":"BOZÜYÜK","code":"11300"},{"name":"GÖLPAZARI","code":"11700"},{"name":"İNHİSAR","code":"11640"},{"name":"MERKEZ","code":"11120"},{"name":"OSMANELİ","code":"11502"},{"name":"PAZARYERİ","code":"11802"},{"name":"SÖĞÜT","code":"11602"},{"name":"YENİPAZAR","code":"11782"}]},{"name":"BİNGÖL","counties":[{"name":"ADAKLI","code":"12600"},{"name":"GENÇ","code":"12500"},{"name":"KARLIOVA","code":"12900"},{"name":"KİĞI","code":"12800"},{"name":"MERKEZ","code":"12400"},{"name":"SOLHAN","code":"12705"},{"name":"YAYLADERE","code":"12652"},{"name":"YEDİSU","code":"12832"}]},{"name":"BİTLİS","counties":[{"name":"ADİLCEVAZ","code":"13500"},{"name":"AHLAT","code":"13400"},{"name":"GÜROYMAK","code":"13810"},{"name":"HİZAN","code":"13600"},{"name":"MERKEZ","code":"13100"},{"name":"MUTKİ","code":"13703"},{"name":"TATVAN","code":"13202"}]},{"name":"BOLU","counties":[{"name":"DÖRTDİVAN","code":"14910"},{"name":"GEREDE","code":"14900"},{"name":"GÖYNÜK","code":"14780"},{"name":"KIBRISCIK","code":"14610"},{"name":"MENGEN","code":"14850"},{"name":"MERKEZ","code":"14300"},{"name":"MUDURNU","code":"14802"},{"name":"SEBEN","code":"14752"},{"name":"YENİÇAĞA","code":"14652"}]},{"name":"BURDUR","counties":[{"name":"AĞLASUN","code":"15800"},{"name":"ALTINYAYLA","code":"15420"},{"name":"BUCAK","code":"15300"},{"name":"ÇAVDIR","code":"15900"},{"name":"ÇELTİKÇİ","code":"15070"},{"name":"GÖLHİSAR","code":"15400"},{"name":"KARAMANLI","code":"15700"},{"name":"KEMER","code":"15090"},{"name":"MERKEZ","code":"15100"},{"name":"TEFENNİ","code":"15602"},{"name":"YEŞİLOVA","code":"15502"}]},{"name":"BURSA","counties":[{"name":"BÜYÜKORHAN","code":"16990"},{"name":"GEMLİK","code":"16600"},{"name":"GÜRSU","code":"16580"},{"name":"HARMANCIK","code":"16770"},{"name":"İNEGÖL","code":"16400"},{"name":"İZNİK","code":"16860"},{"name":"KARACABEY","code":"16700"},{"name":"KELES","code":"16740"},{"name":"KESTEL","code":"16450"},{"name":"MUDANYA","code":"16940"},{"name":"MUSTAFAKEMALPAŞA","code":"16500"},{"name":"NİLÜFER","code":"16285"},{"name":"ORHANELİ","code":"16980"},{"name":"ORHANGAZİ","code":"16800"},{"name":"OSMANGAZİ","code":"16150"},{"name":"YENİŞEHİR","code":"16900"},{"name":"YILDIRIM","code":"16330"}]},{"name":"ÇANAKKALE","counties":[{"name":"AYVACIK","code":"17860"},{"name":"BAYRAMİÇ","code":"17700"},{"name":"BİGA","code":"17200"},{"name":"BOZCAADA","code":"17680"},{"name":"ÇAN","code":"17400"},{"name":"ECEABAT","code":"17900"},{"name":"EZİNE","code":"17600"},{"name":"GELİBOLU","code":"17360"},{"name":"GÖKÇEADA","code":"17760"},{"name":"LAPSEKİ","code":"17810"},{"name":"MERKEZ","code":"17020"},{"name":"YENİCE","code":"17560"}]},{"name":"ÇANKIRI","counties":[{"name":"ATKARACALAR","code":"18310"},{"name":"BAYRAMÖREN","code":"18320"},{"name":"ÇERKEŞ","code":"18600"},{"name":"ELDİVAN","code":"18700"},{"name":"ILGAZ","code":"18400"},{"name":"KIZILIRMAK","code":"18280"},{"name":"KORGUN","code":"18260"},{"name":"KURŞUNLU","code":"18300"},{"name":"MERKEZ","code":"18100"},{"name":"ORTA","code":"18802"},{"name":"ŞABANÖZÜ","code":"18652"},{"name":"YAPRAKLI","code":"18902"}]},{"name":"ÇORUM","counties":[{"name":"ALACA","code":"19600"},{"name":"BAYAT","code":"19800"},{"name":"BOĞAZKALE","code":"19310"},{"name":"DODURGA","code":"19060"},{"name":"İSKİLİP","code":"19400"},{"name":"KARGI","code":"19900"},{"name":"LAÇİN","code":"19020"},{"name":"MECİTÖZÜ","code":"19700"},{"name":"MERKEZ","code":"19015"},{"name":"OĞUZLAR","code":"19070"},{"name":"ORTAKÖY","code":"19955"},{"name":"OSMANCIK","code":"19502"},{"name":"SUNGURLU","code":"19302"},{"name":"UĞURLUDAĞ","code":"19412"}]},{"name":"DENİZLİ","counties":[{"name":"ACIPAYAM","code":"20800"},{"name":"BABADAĞ","code":"20480"},{"name":"BAKLAN","code":"20770"},{"name":"BEKİLLİ","code":"20930"},{"name":"BEYAĞAÇ","code":"20590"},{"name":"BOZKURT","code":"20370"},{"name":"BULDAN","code":"20400"},{"name":"ÇAL","code":"20700"},{"name":"ÇAMELİ","code":"20980"},{"name":"ÇARDAK","code":"20350"},{"name":"ÇİVRİL","code":"20600"},{"name":"GÜNEY","code":"20460"},{"name":"HONAZ","code":"20330"},{"name":"KALE","code":"20570"},{"name":"MERKEZEFENDİ","code":"20040"},{"name":"PAMUKKALE","code":"20260"},{"name":"SARAYKÖY","code":"20300"},{"name":"SERİNHİSAR","code":"20430"},{"name":"TAVAS","code":"20500"}]},{"name":"DİYARBAKIR","counties":[{"name":"BAĞLAR","code":"21050"},{"name":"BİSMİL","code":"21500"},{"name":"ÇERMİK","code":"21600"},{"name":"ÇINAR","code":"21750"},{"name":"ÇÜNGÜŞ","code":"21870"},{"name":"DİCLE","code":"21830"},{"name":"EĞİL","code":"21470"},{"name":"ERGANİ","code":"21950"},{"name":"HANİ","code":"21800"},{"name":"HAZRO","code":"21560"},{"name":"KAYAPINAR","code":"21070"},{"name":"KOCAKÖY","code":"21450"},{"name":"KULP","code":"21900"},{"name":"LİCE","code":"21700"},{"name":"SİLVAN","code":"21640"},{"name":"SUR","code":"21200"},{"name":"YENİŞEHİR","code":"21120"}]},{"name":"DÜZCE","counties":[{"name":"AKÇAKOCA","code":"81650"},{"name":"CUMAYERİ","code":"81700"},{"name":"ÇİLİMLİ","code":"81750"},{"name":"GÖLYAKA","code":"81800"},{"name":"GÜMÜŞOVA","code":"81850"},{"name":"KAYNAŞLI","code":"81900"},{"name":"MERKEZ","code":"81630"},{"name":"YIĞILCA","code":"81952"}]},{"name":"EDİRNE","counties":[{"name":"ENEZ","code":"22700"},{"name":"HAVSA","code":"22530"},{"name":"İPSALA","code":"22440"},{"name":"KEŞAN","code":"22890"},{"name":"LALAPAŞA","code":"22950"},{"name":"MERİÇ","code":"22610"},{"name":"MERKEZ","code":"22100"},{"name":"SÜLOĞLU","code":"22580"},{"name":"UZUNKÖPRÜ","code":"22300"}]},{"name":"ELAZIĞ","counties":[{"name":"AĞIN","code":"23960"},{"name":"ALACAKAYA","code":"23410"},{"name":"ARICAK","code":"23510"},{"name":"BASKİL","code":"23800"},{"name":"KARAKOÇAN","code":"23600"},{"name":"KEBAN","code":"23700"},{"name":"KOVANCILAR","code":"23850"},{"name":"MADEN","code":"23400"},{"name":"MERKEZ","code":"23270"},{"name":"PALU","code":"23530"},{"name":"SİVRİCE","code":"23902"}]},{"name":"ERZİNCAN","counties":[{"name":"ÇAYIRLI","code":"24500"},{"name":"İLİÇ","code":"24700"},{"name":"KEMAH","code":"24400"},{"name":"KEMALİYE","code":"24610"},{"name":"MERKEZ","code":"24100"},{"name":"OTLUKBELİ","code":"24515"},{"name":"REFAHİYE","code":"24302"},{"name":"TERCAN","code":"24870"},{"name":"ÜZÜMLÜ","code":"24160"}]},{"name":"ERZURUM","counties":[{"name":"AŞKALE","code":"25500"},{"name":"AZİZİYE","code":"25700"},{"name":"ÇAT","code":"25750"},{"name":"HINIS","code":"25600"},{"name":"HORASAN","code":"25800"},{"name":"İSPİR","code":"25900"},{"name":"KARAÇOBAN","code":"25610"},{"name":"KARAYAZI","code":"25830"},{"name":"KÖPRÜKÖY","code":"25320"},{"name":"NARMAN","code":"25530"},{"name":"OLTU","code":"25400"},{"name":"OLUR","code":"25650"},{"name":"PALANDÖKEN","code":"25080"},{"name":"PASİNLER","code":"25300"},{"name":"PAZARYOLU","code":"25930"},{"name":"ŞENKAYA","code":"25360"},{"name":"TEKMAN","code":"25560"},{"name":"TORTUM","code":"25430"},{"name":"UZUNDERE","code":"25440"},{"name":"YAKUTİYE","code":"25200"}]},{"name":"ESKİŞEHİR","counties":[{"name":"ALPU","code":"26850"},{"name":"BEYLİKOVA","code":"26750"},{"name":"ÇİFTELER","code":"26700"},{"name":"GÜNYÜZÜ","code":"26630"},{"name":"HAN","code":"26710"},{"name":"İNÖNÜ","code":"26670"},{"name":"MAHMUDİYE","code":"26800"},{"name":"MİHALGAZİ","code":"26880"},{"name":"MİHALIÇÇIK","code":"26940"},{"name":"ODUNPAZARI","code":"26030"},{"name":"SARICAKAYA","code":"26870"},{"name":"SEYİTGAZİ","code":"26950"},{"name":"SİVRİHİSAR","code":"26600"},{"name":"TEPEBAŞI","code":"26170"}]},{"name":"GAZİANTEP","counties":[{"name":"ARABAN","code":"27650"},{"name":"İSLAHİYE","code":"27800"},{"name":"KARKAMIŞ","code":"27880"},{"name":"NİZİP","code":"27700"},{"name":"NURDAĞI","code":"27840"},{"name":"OĞUZELİ","code":"27900"},{"name":"ŞAHİNBEY","code":"27220"},{"name":"ŞEHİTKAMİL","code":"27080"},{"name":"YAVUZELİ","code":"27970"}]},{"name":"GİRESUN","counties":[{"name":"ALUCRA","code":"28700"},{"name":"BULANCAK","code":"28328"},{"name":"ÇAMOLUK","code":"28710"},{"name":"ÇANAKÇI","code":"28810"},{"name":"DERELİ","code":"28950"},{"name":"DOĞANKENT","code":"28510"},{"name":"ESPİYE","code":"28600"},{"name":"EYNESİL","code":"28850"},{"name":"GÖRELE","code":"28820"},{"name":"GÜCE","code":"28520"},{"name":"KEŞAP","code":"28900"},{"name":"MERKEZ","code":"28100"},{"name":"PİRAZİZ","code":"28342"},{"name":"ŞEBİNKARAHİSAR","code":"28402"},{"name":"TİREBOLU","code":"28502"},{"name":"YAĞLIDERE","code":"28612"}]},{"name":"GÜMÜŞHANE","counties":[{"name":"KELKİT","code":"29610"},{"name":"KÖSE","code":"29650"},{"name":"KÜRTÜN","code":"29830"},{"name":"MERKEZ","code":"29020"},{"name":"ŞİRAN","code":"29702"},{"name":"TORUL","code":"29802"}]},{"name":"HAKKARİ","counties":[{"name":"ÇUKURCA","code":"30720"},{"name":"DERECİK","code":"30600"},{"name":"MERKEZ","code":"30120"},{"name":"ŞEMDİNLİ","code":"30802"},{"name":"YÜKSEKOVA","code":"30330"}]},{"name":"HATAY","counties":[{"name":"ALTINÖZÜ","code":"31750"},{"name":"ANTAKYA","code":"31040"},{"name":"ARSUZ","code":"31225"},{"name":"BELEN","code":"31350"},{"name":"DEFNE","code":"31160"},{"name":"DÖRTYOL","code":"31600"},{"name":"ERZİN","code":"31960"},{"name":"HASSA","code":"31700"},{"name":"İSKENDERUN","code":"31280"},{"name":"KIRIKHAN","code":"31440"},{"name":"KUMLU","code":"31520"},{"name":"PAYAS","code":"31900"},{"name":"REYHANLI","code":"31500"},{"name":"SAMANDAĞ","code":"31800"},{"name":"YAYLADAĞI","code":"31550"}]},{"name":"IĞDIR","counties":[{"name":"ARALIK","code":"76500"},{"name":"KARAKOYUNLU","code":"76700"},{"name":"MERKEZ","code":"76410"},{"name":"TUZLUCA","code":"76902"}]},{"name":"ISPARTA","counties":[{"name":"AKSU","code":"32510"},{"name":"ATABEY","code":"32670"},{"name":"EĞİRDİR","code":"32500"},{"name":"GELENDOST","code":"32900"},{"name":"GÖNEN","code":"32090"},{"name":"KEÇİBORLU","code":"32700"},{"name":"MERKEZ","code":"32040"},{"name":"SENİRKENT","code":"32610"},{"name":"SÜTÇÜLER","code":"32952"},{"name":"ŞARKİKARAAĞAÇ","code":"32810"},{"name":"ULUBORLU","code":"32652"},{"name":"YALVAÇ","code":"32430"},{"name":"YENİŞARBADEMLİ","code":"32852"}]},{"name":"İSTANBUL","counties":[{"name":"ADALAR","code":"34975"},{"name":"ARNAVUTKÖY","code":"34275"},{"name":"ATAŞEHİR","code":"34758"},{"name":"AVCILAR","code":"34315"},{"name":"BAĞCILAR","code":"34200"},{"name":"BAHÇELİEVLER","code":"34180"},{"name":"BAKIRKÖY","code":"34158"},{"name":"BAŞAKŞEHİR","code":"34494"},{"name":"BAYRAMPAŞA","code":"34035"},{"name":"BEŞİKTAŞ","code":"34022"},{"name":"BEYKOZ","code":"34810"},{"name":"BEYLİKDÜZÜ","code":"34520"},{"name":"BEYOĞLU","code":"34421"},{"name":"BÜYÜKÇEKMECE","code":"34500"},{"name":"ÇATALCA","code":"34540"},{"name":"ÇEKMEKÖY","code":"34794"},{"name":"ESENLER","code":"34230"},{"name":"ESENYURT","code":"34517"},{"name":"EYÜPSULTAN","code":"34060"},{"name":"FATİH","code":"34096"},{"name":"GAZİOSMANPAŞA","code":"34245"},{"name":"GÜNGÖREN","code":"34160"},{"name":"KADIKÖY","code":"34744"},{"name":"KAĞITHANE","code":"34403"},{"name":"KARTAL","code":"34862"},{"name":"KÜÇÜKÇEKMECE","code":"34307"},{"name":"MALTEPE","code":"34854"},{"name":"PENDİK","code":"34893"},{"name":"SANCAKTEPE","code":"34885"},{"name":"SARIYER","code":"34473"},{"name":"SİLİVRİ","code":"34594"},{"name":"SULTANBEYLİ","code":"34920"},{"name":"SULTANGAZİ","code":"34265"},{"name":"ŞİLE","code":"34990"},{"name":"ŞİŞLİ","code":"34375"},{"name":"TUZLA","code":"34959"},{"name":"ÜMRANİYE","code":"34773"},{"name":"ÜSKÜDAR","code":"34660"},{"name":"ZEYTİNBURNU","code":"34025"}]},{"name":"İZMİR","counties":[{"name":"ALİAĞA","code":"35800"},{"name":"BALÇOVA","code":"35330"},{"name":"BAYINDIR","code":"35840"},{"name":"BAYRAKLI","code":"35540"},{"name":"BERGAMA","code":"35700"},{"name":"BEYDAĞ","code":"35790"},{"name":"BORNOVA","code":"35080"},{"name":"BUCA","code":"35390"},{"name":"ÇEŞME","code":"35937"},{"name":"ÇİĞLİ","code":"35640"},{"name":"DİKİLİ","code":"35980"},{"name":"FOÇA","code":"35683"},{"name":"GAZİEMİR","code":"35410"},{"name":"GÜZELBAHÇE","code":"35310"},{"name":"KARABAĞLAR","code":"35140"},{"name":"KARABURUN","code":"35960"},{"name":"KARŞIYAKA","code":"35600"},{"name":"KEMALPAŞA","code":"35737"},{"name":"KINIK","code":"35990"},{"name":"KİRAZ","code":"35890"},{"name":"KONAK","code":"35220"},{"name":"MENDERES","code":"35479"},{"name":"MENEMEN","code":"35660"},{"name":"NARLIDERE","code":"35320"},{"name":"ÖDEMİŞ","code":"35750"},{"name":"SEFERİHİSAR","code":"35465"},{"name":"SELÇUK","code":"35920"},{"name":"TİRE","code":"35900"},{"name":"TORBALI","code":"35870"},{"name":"URLA","code":"35432"}]},{"name":"KAHRAMANMARAŞ","counties":[{"name":"AFŞİN","code":"46500"},{"name":"ANDIRIN","code":"46400"},{"name":"ÇAĞLAYANCERİT","code":"46720"},{"name":"DULKADİROĞLU","code":"46100"},{"name":"EKİNÖZÜ","code":"46360"},{"name":"ELBİSTAN","code":"46300"},{"name":"GÖKSUN","code":"46600"},{"name":"NURHAK","code":"46370"},{"name":"ONİKİŞUBAT","code":"46050"},{"name":"PAZARCIK","code":"46700"},{"name":"TÜRKOĞLU","code":"46800"}]},{"name":"KARABÜK","counties":[{"name":"EFLANİ","code":"78300"},{"name":"ESKİPAZAR","code":"78400"},{"name":"MERKEZ","code":"78050"},{"name":"OVACIK","code":"78502"},{"name":"SAFRANBOLU","code":"78602"},{"name":"YENİCE","code":"78702"}]},{"name":"KARAMAN","counties":[{"name":"AYRANCI","code":"70500"},{"name":"BAŞYAYLA","code":"70700"},{"name":"ERMENEK","code":"70400"},{"name":"KAZIMKARABEKİR","code":"70600"},{"name":"MERKEZ","code":"70110"},{"name":"SARIVELİLER","code":"70810"}]},{"name":"KARS","counties":[{"name":"AKYAKA","code":"36780"},{"name":"ARPAÇAY","code":"36730"},{"name":"DİGOR","code":"36680"},{"name":"KAĞIZMAN","code":"36700"},{"name":"MERKEZ","code":"36100"},{"name":"SARIKAMIŞ","code":"36502"},{"name":"SELİM","code":"36902"},{"name":"SUSUZ","code":"36762"}]},{"name":"KASTAMONU","counties":[{"name":"ABANA","code":"37970"},{"name":"AĞLI","code":"37920"},{"name":"ARAÇ","code":"37800"},{"name":"AZDAVAY","code":"37750"},{"name":"BOZKURT","code":"37680"},{"name":"CİDE","code":"37600"},{"name":"ÇATALZEYTİN","code":"37940"},{"name":"DADAY","code":"37870"},{"name":"DEVREKANİ","code":"37700"},{"name":"DOĞANYURT","code":"37550"},{"name":"HANÖNÜ","code":"37450"},{"name":"İHSANGAZİ","code":"37250"},{"name":"İNEBOLU","code":"37500"},{"name":"KÜRE","code":"37900"},{"name":"MERKEZ","code":"37100"},{"name":"PINARBAŞI","code":"37772"},{"name":"SEYDİLER","code":"37272"},{"name":"ŞENPAZAR","code":"37652"},{"name":"TAŞKÖPRÜ","code":"37402"},{"name":"TOSYA","code":"37302"}]},{"name":"KAYSERİ","counties":[{"name":"AKKIŞLA","code":"38830"},{"name":"BÜNYAN","code":"38600"},{"name":"DEVELİ","code":"38400"},{"name":"FELAHİYE","code":"38750"},{"name":"HACILAR","code":"38310"},{"name":"İNCESU","code":"38560"},{"name":"KOCASİNAN","code":"38090"},{"name":"MELİKGAZİ","code":"38150"},{"name":"ÖZVATAN","code":"38770"},{"name":"PINARBAŞI","code":"38700"},{"name":"SARIOĞLAN","code":"38820"},{"name":"SARIZ","code":"38660"},{"name":"TALAS","code":"38280"},{"name":"TOMARZA","code":"38900"},{"name":"YAHYALI","code":"38500"},{"name":"YEŞİLHİSAR","code":"38800"}]},{"name":"KIRIKKALE","counties":[{"name":"BAHŞILI","code":"71460"},{"name":"BALIŞEYH","code":"71520"},{"name":"ÇELEBİ","code":"71810"},{"name":"DELİCE","code":"71670"},{"name":"KARAKEÇİLİ","code":"71500"},{"name":"KESKİN","code":"71800"},{"name":"MERKEZ","code":"71100"},{"name":"SULAKYURT","code":"71902"},{"name":"YAHŞİHAN","code":"71452"}]},{"name":"KIRKLARELİ","counties":[{"name":"BABAESKİ","code":"39570"},{"name":"DEMİRKÖY","code":"39500"},{"name":"KOFÇAZ","code":"39700"},{"name":"LÜLEBURGAZ","code":"39770"},{"name":"MERKEZ","code":"39002"},{"name":"PEHLİVANKÖY","code":"39640"},{"name":"PINARHİSAR","code":"39310"},{"name":"VİZE","code":"39401"}]},{"name":"KIRŞEHİR","counties":[{"name":"AKÇAKENT","code":"40720"},{"name":"AKPINAR","code":"40320"},{"name":"BOZTEPE","code":"40020"},{"name":"ÇİÇEKDAĞI","code":"40700"},{"name":"KAMAN","code":"40300"},{"name":"MERKEZ","code":"40100"},{"name":"MUCUR","code":"40502"}]},{"name":"KİLİS","counties":[{"name":"ELBEYLİ","code":"79500"},{"name":"MERKEZ","code":"79090"},{"name":"MUSABEYLİ","code":"79602"},{"name":"POLATELİ","code":"79702"}]},{"name":"KOCAELİ","counties":[{"name":"BAŞİSKELE","code":"41030"},{"name":"ÇAYIROVA","code":"41420"},{"name":"DARICA","code":"41700"},{"name":"DERİNCE","code":"41900"},{"name":"DİLOVASI","code":"41455"},{"name":"GEBZE","code":"41400"},{"name":"GÖLCÜK","code":"41950"},{"name":"İZMİT","code":"41310"},{"name":"KANDIRA","code":"41600"},{"name":"KARAMÜRSEL","code":"41500"},{"name":"KARTEPE","code":"41285"},{"name":"KÖRFEZ","code":"41800"}]},{"name":"KONYA","counties":[{"name":"AHIRLI","code":"42390"},{"name":"AKÖREN","code":"42460"},{"name":"AKŞEHİR","code":"42570"},{"name":"ALTINEKİN","code":"42450"},{"name":"BEYŞEHİR","code":"42705"},{"name":"BOZKIR","code":"42630"},{"name":"CİHANBEYLİ","code":"42855"},{"name":"ÇELTİK","code":"42920"},{"name":"ÇUMRA","code":"42500"},{"name":"DERBENT","code":"42900"},{"name":"DEREBUCAK","code":"42480"},{"name":"DOĞANHİSAR","code":"42940"},{"name":"EMİRGAZİ","code":"42910"},{"name":"EREĞLİ","code":"42340"},{"name":"GÜNEYSINIR","code":"42490"},{"name":"HADİM","code":"42830"},{"name":"HALKAPINAR","code":"42980"},{"name":"HÜYÜK","code":"42690"},{"name":"ILGIN","code":"42610"},{"name":"KADINHANI","code":"42800"},{"name":"KARAPINAR","code":"42400"},{"name":"KARATAY","code":"42050"},{"name":"KULU","code":"42770"},{"name":"MERAM","code":"42040"},{"name":"SARAYÖNÜ","code":"42430"},{"name":"SELÇUKLU","code":"42100"},{"name":"SEYDİŞEHİR","code":"42370"},{"name":"TAŞKENT","code":"42960"},{"name":"TUZLUKÇU","code":"42970"},{"name":"YALIHÜYÜK","code":"42470"},{"name":"YUNAK","code":"42530"}]},{"name":"KÜTAHYA","counties":[{"name":"ALTINTAŞ","code":"43800"},{"name":"ASLANAPA","code":"43210"},{"name":"ÇAVDARHİSAR","code":"43710"},{"name":"DOMANİÇ","code":"43860"},{"name":"DUMLUPINAR","code":"43820"},{"name":"EMET","code":"43700"},{"name":"GEDİZ","code":"43640"},{"name":"HİSARCIK","code":"43780"},{"name":"MERKEZ","code":"43020"},{"name":"PAZARLAR","code":"43532"},{"name":"SİMAV","code":"43590"},{"name":"ŞAPHANE","code":"43952"},{"name":"TAVŞANLI","code":"43410"}]},{"name":"MALATYA","counties":[{"name":"AKÇADAĞ","code":"44600"},{"name":"ARAPGİR","code":"44800"},{"name":"ARGUVAN","code":"44960"},{"name":"BATTALGAZİ","code":"44210"},{"name":"DARENDE","code":"44700"},{"name":"DOĞANŞEHİR","code":"44500"},{"name":"DOĞANYOL","code":"44880"},{"name":"HEKİMHAN","code":"44400"},{"name":"KALE","code":"44370"},{"name":"KULUNCAK","code":"44760"},{"name":"PÜTÜRGE","code":"44850"},{"name":"YAZIHAN","code":"44350"},{"name":"YEŞİLYURT","code":"44915"}]},{"name":"MANİSA","counties":[{"name":"AHMETLİ","code":"45450"},{"name":"AKHİSAR","code":"45200"},{"name":"ALAŞEHİR","code":"45600"},{"name":"DEMİRCİ","code":"45900"},{"name":"GÖLMARMARA","code":"45580"},{"name":"GÖRDES","code":"45753"},{"name":"KIRKAĞAÇ","code":"45730"},{"name":"KÖPRÜBAŞI","code":"45930"},{"name":"KULA","code":"45170"},{"name":"SALİHLİ","code":"45320"},{"name":"SARIGÖL","code":"45470"},{"name":"SARUHANLI","code":"45880"},{"name":"SELENDİ","code":"45970"},{"name":"SOMA","code":"45520"},{"name":"ŞEHZADELER","code":"45060"},{"name":"TURGUTLU","code":"45415"},{"name":"YUNUSEMRE","code":"45125"}]},{"name":"MARDİN","counties":[{"name":"ARTUKLU","code":"47420"},{"name":"DARGEÇİT","code":"47750"},{"name":"DERİK","code":"47800"},{"name":"KIZILTEPE","code":"47400"},{"name":"MAZIDAĞI","code":"47700"},{"name":"MİDYAT","code":"47510"},{"name":"NUSAYBİN","code":"47300"},{"name":"ÖMERLİ","code":"47570"},{"name":"SAVUR","code":"47860"},{"name":"YEŞİLLİ","code":"47650"}]},{"name":"MERSİN","counties":[{"name":"AKDENİZ","code":"33280"},{"name":"ANAMUR","code":"33630"},{"name":"AYDINCIK","code":"33840"},{"name":"BOZYAZI","code":"33707"},{"name":"ÇAMLIYAYLA","code":"33580"},{"name":"ERDEMLİ","code":"33730"},{"name":"GÜLNAR","code":"33700"},{"name":"MEZİTLİ","code":"33210"},{"name":"MUT","code":"33600"},{"name":"SİLİFKE","code":"33990"},{"name":"TARSUS","code":"33460"},{"name":"TOROSLAR","code":"33220"},{"name":"YENİŞEHİR","code":"33120"}]},{"name":"MUĞLA","counties":[{"name":"BODRUM","code":"48400"},{"name":"DALAMAN","code":"48770"},{"name":"DATÇA","code":"48900"},{"name":"FETHİYE","code":"48300"},{"name":"KAVAKLIDERE","code":"48570"},{"name":"KÖYCEĞİZ","code":"48800"},{"name":"MARMARİS","code":"48700"},{"name":"MENTEŞE","code":"48050"},{"name":"MİLAS","code":"48200"},{"name":"ORTACA","code":"48600"},{"name":"SEYDİKEMER","code":"48850"},{"name":"ULA","code":"48640"},{"name":"YATAĞAN","code":"48500"}]},{"name":"MUŞ","counties":[{"name":"BULANIK","code":"49500"},{"name":"HASKÖY","code":"49710"},{"name":"KORKUT","code":"49730"},{"name":"MALAZGİRT","code":"49540"},{"name":"MERKEZ","code":"49170"},{"name":"VARTO","code":"49610"}]},{"name":"NEVŞEHİR","counties":[{"name":"ACIGÖL","code":"50140"},{"name":"AVANOS","code":"50500"},{"name":"DERİNKUYU","code":"50700"},{"name":"GÜLŞEHİR","code":"50900"},{"name":"HACIBEKTAŞ","code":"50800"},{"name":"KOZAKLI","code":"50600"},{"name":"MERKEZ","code":"50200"},{"name":"ÜRGÜP","code":"50402"}]},{"name":"NİĞDE","counties":[{"name":"ALTUNHİSAR","code":"51600"},{"name":"BOR","code":"51710"},{"name":"ÇAMARDI","code":"51660"},{"name":"ÇİFTLİK","code":"51810"},{"name":"MERKEZ","code":"51200"},{"name":"ULUKIŞLA","code":"51902"}]},{"name":"ORDU","counties":[{"name":"AKKUŞ","code":"52950"},{"name":"ALTINORDU","code":"52200"},{"name":"AYBASTI","code":"52500"},{"name":"ÇAMAŞ","code":"52430"},{"name":"ÇATALPINAR","code":"52420"},{"name":"ÇAYBAŞI","code":"52310"},{"name":"FATSA","code":"52400"},{"name":"GÖLKÖY","code":"52600"},{"name":"GÜLYALI","code":"52010"},{"name":"GÜRGENTEPE","code":"52610"},{"name":"İKİZCE","code":"52320"},{"name":"KABADÜZ","code":"52020"},{"name":"KABATAŞ","code":"52520"},{"name":"KORGAN","code":"52700"},{"name":"KUMRU","code":"52800"},{"name":"MESUDİYE","code":"52900"},{"name":"PERŞEMBE","code":"52750"},{"name":"ULUBEY","code":"52850"},{"name":"ÜNYE","code":"52300"}]},{"name":"OSMANİYE","counties":[{"name":"BAHÇE","code":"80500"},{"name":"DÜZİÇİ","code":"80710"},{"name":"HASANBEYLİ","code":"80850"},{"name":"KADİRLİ","code":"80760"},{"name":"MERKEZ","code":"80010"},{"name":"SUMBAS","code":"80940"},{"name":"TOPRAKKALE","code":"80952"}]},{"name":"RİZE","counties":[{"name":"ARDEŞEN","code":"53400"},{"name":"ÇAMLIHEMŞİN","code":"53750"},{"name":"ÇAYELİ","code":"53210"},{"name":"DEREPAZARI","code":"53900"},{"name":"FINDIKLI","code":"53700"},{"name":"GÜNEYSU","code":"53350"},{"name":"HEMŞİN","code":"53550"},{"name":"İKİZDERE","code":"53650"},{"name":"İYİDERE","code":"53600"},{"name":"KALKANDERE","code":"53500"},{"name":"MERKEZ","code":"53800"},{"name":"PAZAR","code":"53340"}]},{"name":"SAKARYA","counties":[{"name":"ADAPAZARI","code":"54100"},{"name":"AKYAZI","code":"54400"},{"name":"ARİFİYE","code":"54580"},{"name":"ERENLER","code":"54200"},{"name":"FERİZLİ","code":"54110"},{"name":"GEYVE","code":"54700"},{"name":"HENDEK","code":"54300"},{"name":"KARAPÜRÇEK","code":"54430"},{"name":"KARASU","code":"54500"},{"name":"KAYNARCA","code":"54650"},{"name":"KOCAALİ","code":"54800"},{"name":"PAMUKOVA","code":"54900"},{"name":"SAPANCA","code":"54600"},{"name":"SERDİVAN","code":"54050"},{"name":"SÖĞÜTLÜ","code":"54160"},{"name":"TARAKLI","code":"54750"}]},{"name":"SAMSUN","counties":[{"name":"19 MAYIS","code":"55420"},{"name":"ALAÇAM","code":"55800"},{"name":"ASARCIK","code":"55860"},{"name":"ATAKUM","code":"55200"},{"name":"AYVACIK","code":"55550"},{"name":"BAFRA","code":"55400"},{"name":"CANİK","code":"55080"},{"name":"ÇARŞAMBA","code":"55500"},{"name":"HAVZA","code":"55700"},{"name":"İLKADIM","code":"55070"},{"name":"KAVAK","code":"55850"},{"name":"LADİK","code":"55760"},{"name":"SALIPAZARI","code":"55530"},{"name":"TEKKEKÖY","code":"55320"},{"name":"TERME","code":"55600"},{"name":"VEZİRKÖPRÜ","code":"55902"},{"name":"YAKAKENT","code":"55810"}]},{"name":"SİİRT","counties":[{"name":"BAYKAN","code":"56465"},{"name":"ERUH","code":"56540"},{"name":"KURTALAN","code":"56505"},{"name":"MERKEZ","code":"56210"},{"name":"PERVARİ","code":"56705"},{"name":"ŞİRVAN","code":"56873"},{"name":"TİLLO","code":"56870"}]},{"name":"SİNOP","counties":[{"name":"AYANCIK","code":"57400"},{"name":"BOYABAT","code":"57200"},{"name":"DİKMEN","code":"57660"},{"name":"DURAĞAN","code":"57700"},{"name":"ERFELEK","code":"57800"},{"name":"GERZE","code":"57600"},{"name":"MERKEZ","code":"57002"},{"name":"SARAYDÜZÜ","code":"57302"},{"name":"TÜRKELİ","code":"57902"}]},{"name":"SİVAS","counties":[{"name":"AKINCILAR","code":"58550"},{"name":"ALTINYAYLA","code":"58470"},{"name":"DİVRİĞİ","code":"58300"},{"name":"DOĞANŞAR","code":"58780"},{"name":"GEMEREK","code":"58843"},{"name":"GÖLOVA","code":"58640"},{"name":"GÜRÜN","code":"58800"},{"name":"HAFİK","code":"58760"},{"name":"İMRANLI","code":"58980"},{"name":"KANGAL","code":"58900"},{"name":"KOYULHİSAR","code":"58660"},{"name":"MERKEZ","code":"58030"},{"name":"SUŞEHRİ","code":"58602"},{"name":"ŞARKIŞLA","code":"58405"},{"name":"ULAŞ","code":"58382"},{"name":"YILDIZELİ","code":"58525"},{"name":"ZARA","code":"58702"}]},{"name":"ŞANLIURFA","counties":[{"name":"AKÇAKALE","code":"63500"},{"name":"BİRECİK","code":"63400"},{"name":"BOZOVA","code":"63850"},{"name":"CEYLANPINAR","code":"63570"},{"name":"EYYÜBİYE","code":"63210"},{"name":"HALFETİ","code":"63950"},{"name":"HALİLİYE","code":"63050"},{"name":"HARRAN","code":"63510"},{"name":"HİLVAN","code":"63900"},{"name":"KARAKÖPRÜ","code":"63320"},{"name":"SİVEREK","code":"63600"},{"name":"SURUÇ","code":"63800"},{"name":"VİRANŞEHİR","code":"63700"}]},{"name":"ŞIRNAK","counties":[{"name":"BEYTÜŞŞEBAP","code":"73800"},{"name":"CİZRE","code":"73200"},{"name":"GÜÇLÜKONAK","code":"73710"},{"name":"İDİL","code":"73300"},{"name":"MERKEZ","code":"73030"},{"name":"SİLOPİ","code":"73430"},{"name":"ULUDERE","code":"73630"}]},{"name":"TEKİRDAĞ","counties":[{"name":"ÇERKEZKÖY","code":"59500"},{"name":"ÇORLU","code":"59850"},{"name":"ERGENE","code":"59930"},{"name":"HAYRABOLU","code":"59400"},{"name":"KAPAKLI","code":"59510"},{"name":"MALKARA","code":"59300"},{"name":"MARMARAEREĞLİSİ","code":"59740"},{"name":"MURATLI","code":"59700"},{"name":"SARAY","code":"59600"},{"name":"SÜLEYMANPAŞA","code":"59100"},{"name":"ŞARKÖY","code":"59800"}]},{"name":"TOKAT","counties":[{"name":"ALMUS","code":"60905"},{"name":"ARTOVA","code":"60670"},{"name":"BAŞÇİFTLİK","code":"60620"},{"name":"ERBAA","code":"60500"},{"name":"MERKEZ","code":"60225"},{"name":"NİKSAR","code":"60630"},{"name":"PAZAR","code":"60802"},{"name":"REŞADİYE","code":"60730"},{"name":"SULUSARAY","code":"60872"},{"name":"TURHAL","code":"60302"},{"name":"YEŞİLYURT","code":"60862"},{"name":"ZİLE","code":"60402"}]},{"name":"TRABZON","counties":[{"name":"AKÇAABAT","code":"61300"},{"name":"ARAKLI","code":"61700"},{"name":"ARSİN","code":"61900"},{"name":"BEŞİKDÜZÜ","code":"61800"},{"name":"ÇARŞIBAŞI","code":"61420"},{"name":"ÇAYKARA","code":"61940"},{"name":"DERNEKPAZARI","code":"61950"},{"name":"DÜZKÖY","code":"61390"},{"name":"HAYRAT","code":"61450"},{"name":"KÖPRÜBAŞI","code":"61630"},{"name":"MAÇKA","code":"61750"},{"name":"OF","code":"61830"},{"name":"ORTAHİSAR","code":"61040"},{"name":"SÜRMENE","code":"61600"},{"name":"ŞALPAZARI","code":"61670"},{"name":"TONYA","code":"61500"},{"name":"VAKFIKEBİR","code":"61400"},{"name":"YOMRA","code":"61250"}]},{"name":"TUNCELİ","counties":[{"name":"ÇEMİŞGEZEK","code":"62600"},{"name":"HOZAT","code":"62400"},{"name":"MAZGİRT","code":"62810"},{"name":"MERKEZ","code":"62002"},{"name":"NAZIMİYE","code":"62952"},{"name":"OVACIK","code":"62901"},{"name":"PERTEK","code":"62502"},{"name":"PÜLÜMÜR","code":"62702"}]},{"name":"UŞAK","counties":[{"name":"BANAZ","code":"64500"},{"name":"EŞME","code":"64600"},{"name":"KARAHALLI","code":"64700"},{"name":"MERKEZ","code":"64200"},{"name":"SİVASLI","code":"64802"},{"name":"ULUBEY","code":"64902"}]},{"name":"VAN","counties":[{"name":"BAHÇESARAY","code":"65710"},{"name":"BAŞKALE","code":"65600"},{"name":"ÇALDIRAN","code":"65970"},{"name":"ÇATAK","code":"65870"},{"name":"EDREMİT","code":"65170"},{"name":"ERCİŞ","code":"65400"},{"name":"GEVAŞ","code":"65700"},{"name":"GÜRPINAR","code":"65900"},{"name":"İPEKYOLU","code":"65210"},{"name":"MURADİYE","code":"65500"},{"name":"ÖZALP","code":"65800"},{"name":"SARAY","code":"65830"},{"name":"TUŞBA","code":"65040"}]},{"name":"YALOVA","counties":[{"name":"ALTINOVA","code":"77700"},{"name":"ARMUTLU","code":"77500"},{"name":"ÇINARCIK","code":"77300"},{"name":"ÇİFTLİKKÖY","code":"77600"},{"name":"MERKEZ","code":"77200"},{"name":"TERMAL","code":"77402"}]},{"name":"YOZGAT","counties":[{"name":"AKDAĞMADENİ","code":"66300"},{"name":"AYDINCIK","code":"66510"},{"name":"BOĞAZLIYAN","code":"66400"},{"name":"ÇANDIR","code":"66620"},{"name":"ÇAYIRALAN","code":"66600"},{"name":"ÇEKEREK","code":"66500"},{"name":"KADIŞEHRİ","code":"66545"},{"name":"MERKEZ","code":"66010"},{"name":"SARAYKENT","code":"66325"},{"name":"SARIKAYA","code":"66655"},{"name":"SORGUN","code":"66750"},{"name":"ŞEFAATLİ","code":"66802"},{"name":"YENİFAKILI","code":"66472"},{"name":"YERKÖY","code":"66902"}]},{"name":"ZONGULDAK","counties":[{"name":"ALAPLI","code":"67850"},{"name":"ÇAYCUMA","code":"67900"},{"name":"DEVREK","code":"67830"},{"name":"EREĞLİ","code":"67350"},{"name":"GÖKÇEBEY","code":"67680"},{"name":"KİLİMLİ","code":"67150"},{"name":"KOZLU","code":"67600"},{"name":"MERKEZ","code":"67980"}]}]
+[
+  {
+    "name": "ADANA",
+    "counties": [
+      { "name": "ALADAĞ", "code": "01720" },
+      { "name": "CEYHAN", "code": "01922" },
+      { "name": "ÇUKUROVA", "code": "01360" },
+      { "name": "FEKE", "code": "01662" },
+      { "name": "İMAMOĞLU", "code": "01700" },
+      { "name": "KARAİSALI", "code": "01770" },
+      { "name": "KARATAŞ", "code": "01900" },
+      { "name": "KOZAN", "code": "01555" },
+      { "name": "POZANTI", "code": "01490" },
+      { "name": "SAİMBEYLİ", "code": "01740" },
+      { "name": "SARIÇAM", "code": "01410" },
+      { "name": "SEYHAN", "code": "01040" },
+      { "name": "TUFANBEYLİ", "code": "01642" },
+      { "name": "YUMURTALIK", "code": "01682" },
+      { "name": "YÜREĞİR", "code": "01358" }
+    ]
+  },
+  {
+    "name": "ADIYAMAN",
+    "counties": [
+      { "name": "BESNİ", "code": "02300" },
+      { "name": "ÇELİKHAN", "code": "02600" },
+      { "name": "GERGER", "code": "02700" },
+      { "name": "GÖLBAŞI", "code": "02530" },
+      { "name": "KAHTA", "code": "02450" },
+      { "name": "MERKEZ", "code": "02100" },
+      { "name": "SAMSAT", "code": "02802" },
+      { "name": "SİNCİK", "code": "02920" },
+      { "name": "TUT", "code": "02352" }
+    ]
+  },
+  {
+    "name": "AFYONKARAHİSAR",
+    "counties": [
+      { "name": "BAŞMAKÇI", "code": "03450" },
+      { "name": "BAYAT", "code": "03780" },
+      { "name": "BOLVADİN", "code": "03300" },
+      { "name": "ÇAY", "code": "03700" },
+      { "name": "ÇOBANLAR", "code": "03060" },
+      { "name": "DAZKIRI", "code": "03950" },
+      { "name": "DİNAR", "code": "03400" },
+      { "name": "EMİRDAĞ", "code": "03630" },
+      { "name": "EVCİLER", "code": "03960" },
+      { "name": "HOCALAR", "code": "03530" },
+      { "name": "İHSANİYE", "code": "03380" },
+      { "name": "İSCEHİSAR", "code": "03750" },
+      { "name": "KIZILÖREN", "code": "03560" },
+      { "name": "MERKEZ", "code": "03050" },
+      { "name": "SANDIKLI", "code": "03510" },
+      { "name": "SİNANPAŞA", "code": "03860" },
+      { "name": "SULTANDAĞI", "code": "03910" },
+      { "name": "ŞUHUT", "code": "03830" }
+    ]
+  },
+  {
+    "name": "AĞRI",
+    "counties": [
+      { "name": "DİYADİN", "code": "04900" },
+      { "name": "DOĞUBAYAZIT", "code": "04400" },
+      { "name": "ELEŞKİRT", "code": "04600" },
+      { "name": "HAMUR", "code": "04850" },
+      { "name": "MERKEZ", "code": "04200" },
+      { "name": "PATNOS", "code": "04503" },
+      { "name": "TAŞLIÇAY", "code": "04802" },
+      { "name": "TUTAK", "code": "04702" }
+    ]
+  },
+  {
+    "name": "AKSARAY",
+    "counties": [
+      { "name": "AĞAÇÖREN", "code": "68600" },
+      { "name": "ESKİL", "code": "68800" },
+      { "name": "GÜLAĞAÇ", "code": "68940" },
+      { "name": "GÜZELYURT", "code": "68500" },
+      { "name": "MERKEZ", "code": "68120" },
+      { "name": "ORTAKÖY", "code": "68601" },
+      { "name": "SARIYAHŞİ", "code": "68702" },
+      { "name": "SULTANHANI", "code": "68190" }
+    ]
+  },
+  {
+    "name": "AMASYA",
+    "counties": [
+      { "name": "GÖYNÜCEK", "code": "05900" },
+      { "name": "GÜMÜŞHACIKÖY", "code": "05700" },
+      { "name": "HAMAMÖZÜ", "code": "05720" },
+      { "name": "MERKEZ", "code": "05200" },
+      { "name": "MERZİFON", "code": "05302" },
+      { "name": "SULUOVA", "code": "05502" },
+      { "name": "TAŞOVA", "code": "05802" }
+    ]
+  },
+  {
+    "name": "ANKARA",
+    "counties": [
+      { "name": "AKYURT", "code": "06750" },
+      { "name": "ALTINDAĞ", "code": "06080" },
+      { "name": "AYAŞ", "code": "06710" },
+      { "name": "BALA", "code": "06720" },
+      { "name": "BEYPAZARI", "code": "06730" },
+      { "name": "ÇAMLIDERE", "code": "06740" },
+      { "name": "ÇANKAYA", "code": "06530" },
+      { "name": "ÇUBUK", "code": "06760" },
+      { "name": "ELMADAĞ", "code": "06780" },
+      { "name": "ETİMESGUT", "code": "06794" },
+      { "name": "EVREN", "code": "06770" },
+      { "name": "GÖLBAŞI", "code": "06830" },
+      { "name": "GÜDÜL", "code": "06840" },
+      { "name": "HAYMANA", "code": "06860" },
+      { "name": "KAHRAMANKAZAN", "code": "06980" },
+      { "name": "KALECİK", "code": "06870" },
+      { "name": "KEÇİÖREN", "code": "06300" },
+      { "name": "KIZILCAHAMAM", "code": "06890" },
+      { "name": "MAMAK", "code": "06620" },
+      { "name": "NALLIHAN", "code": "06920" },
+      { "name": "POLATLI", "code": "06900" },
+      { "name": "PURSAKLAR", "code": "06145" },
+      { "name": "SİNCAN", "code": "06935" },
+      { "name": "ŞEREFLİKOÇHİSAR", "code": "06950" },
+      { "name": "YENİMAHALLE", "code": "06560" }
+    ]
+  },
+  {
+    "name": "ANTALYA",
+    "counties": [
+      { "name": "AKSEKİ", "code": "07630" },
+      { "name": "AKSU", "code": "07112" },
+      { "name": "ALANYA", "code": "07400" },
+      { "name": "DEMRE", "code": "07572" },
+      { "name": "DÖŞEMEALTI", "code": "07190" },
+      { "name": "ELMALI", "code": "07770" },
+      { "name": "FİNİKE", "code": "07740" },
+      { "name": "GAZİPAŞA", "code": "07900" },
+      { "name": "GÜNDOĞMUŞ", "code": "07860" },
+      { "name": "İBRADI", "code": "07680" },
+      { "name": "KAŞ", "code": "07582" },
+      { "name": "KEMER", "code": "07985" },
+      { "name": "KEPEZ", "code": "07090" },
+      { "name": "KONYAALTI", "code": "07070" },
+      { "name": "KORKUTELİ", "code": "07800" },
+      { "name": "KUMLUCA", "code": "07350" },
+      { "name": "MANAVGAT", "code": "07620" },
+      { "name": "MURATPAŞA", "code": "07050" },
+      { "name": "SERİK", "code": "07500" }
+    ]
+  },
+  {
+    "name": "ARDAHAN",
+    "counties": [
+      { "name": "ÇILDIR", "code": "75400" },
+      { "name": "DAMAL", "code": "75600" },
+      { "name": "GÖLE", "code": "75700" },
+      { "name": "HANAK", "code": "75900" },
+      { "name": "MERKEZ", "code": "75100" },
+      { "name": "POSOF", "code": "75802" }
+    ]
+  },
+  {
+    "name": "ARTVİN",
+    "counties": [
+      { "name": "ARDANUÇ", "code": "08300" },
+      { "name": "ARHAVİ", "code": "08200" },
+      { "name": "BORÇKA", "code": "08400" },
+      { "name": "HOPA", "code": "08600" },
+      { "name": "KEMALPAŞA", "code": "08610" },
+      { "name": "MERKEZ", "code": "08010" },
+      { "name": "MURGUL", "code": "08500" },
+      { "name": "ŞAVŞAT", "code": "08790" },
+      { "name": "YUSUFELİ", "code": "08890" }
+    ]
+  },
+  {
+    "name": "AYDIN",
+    "counties": [
+      { "name": "BOZDOĞAN", "code": "09760" },
+      { "name": "BUHARKENT", "code": "09670" },
+      { "name": "ÇİNE", "code": "09500" },
+      { "name": "DİDİM", "code": "09320" },
+      { "name": "EFELER", "code": "09100" },
+      { "name": "GERMENCİK", "code": "09700" },
+      { "name": "İNCİRLİOVA", "code": "09600" },
+      { "name": "KARACASU", "code": "09370" },
+      { "name": "KARPUZLU", "code": "09540" },
+      { "name": "KOÇARLI", "code": "09970" },
+      { "name": "KÖŞK", "code": "09570" },
+      { "name": "KUŞADASI", "code": "09400" },
+      { "name": "KUYUCAK", "code": "09930" },
+      { "name": "NAZİLLİ", "code": "09800" },
+      { "name": "SÖKE", "code": "09200" },
+      { "name": "SULTANHİSAR", "code": "09470" },
+      { "name": "YENİPAZAR", "code": "09350" }
+    ]
+  },
+  {
+    "name": "BALIKESİR",
+    "counties": [
+      { "name": "ALTIEYLÜL", "code": "10100" },
+      { "name": "AYVALIK", "code": "10405" },
+      { "name": "BALYA", "code": "10840" },
+      { "name": "BANDIRMA", "code": "10245" },
+      { "name": "BİGADİÇ", "code": "10440" },
+      { "name": "BURHANİYE", "code": "10700" },
+      { "name": "DURSUNBEY", "code": "10800" },
+      { "name": "EDREMİT", "code": "10390" },
+      { "name": "ERDEK", "code": "10502" },
+      { "name": "GÖMEÇ", "code": "10717" },
+      { "name": "GÖNEN", "code": "10900" },
+      { "name": "HAVRAN", "code": "10560" },
+      { "name": "İVRİNDİ", "code": "10785" },
+      { "name": "KARESİ", "code": "10020" },
+      { "name": "KEPSUT", "code": "10660" },
+      { "name": "MANYAS", "code": "10472" },
+      { "name": "MARMARA", "code": "10940" },
+      { "name": "SAVAŞTEPE", "code": "10582" },
+      { "name": "SINDIRGI", "code": "10332" },
+      { "name": "SUSURLUK", "code": "10610" }
+    ]
+  },
+  {
+    "name": "BARTIN",
+    "counties": [
+      { "name": "AMASRA", "code": "74300" },
+      { "name": "KURUCAŞİLE", "code": "74500" },
+      { "name": "MERKEZ", "code": "74100" },
+      { "name": "ULUS", "code": "74610" }
+    ]
+  },
+  {
+    "name": "BATMAN",
+    "counties": [
+      { "name": "BEŞİRİ", "code": "72200" },
+      { "name": "GERCÜŞ", "code": "72300" },
+      { "name": "HASANKEYF", "code": "72350" },
+      { "name": "KOZLUK", "code": "72420" },
+      { "name": "MERKEZ", "code": "72030" },
+      { "name": "SASON", "code": "72502" }
+    ]
+  },
+  {
+    "name": "BAYBURT",
+    "counties": [
+      { "name": "AYDINTEPE", "code": "69500" },
+      { "name": "DEMİRÖZÜ", "code": "69400" },
+      { "name": "MERKEZ", "code": "69300" }
+    ]
+  },
+  {
+    "name": "BİLECİK",
+    "counties": [
+      { "name": "BOZÜYÜK", "code": "11300" },
+      { "name": "GÖLPAZARI", "code": "11700" },
+      { "name": "İNHİSAR", "code": "11640" },
+      { "name": "MERKEZ", "code": "11120" },
+      { "name": "OSMANELİ", "code": "11502" },
+      { "name": "PAZARYERİ", "code": "11802" },
+      { "name": "SÖĞÜT", "code": "11602" },
+      { "name": "YENİPAZAR", "code": "11782" }
+    ]
+  },
+  {
+    "name": "BİNGÖL",
+    "counties": [
+      { "name": "ADAKLI", "code": "12600" },
+      { "name": "GENÇ", "code": "12500" },
+      { "name": "KARLIOVA", "code": "12900" },
+      { "name": "KİĞI", "code": "12800" },
+      { "name": "MERKEZ", "code": "12400" },
+      { "name": "SOLHAN", "code": "12705" },
+      { "name": "YAYLADERE", "code": "12652" },
+      { "name": "YEDİSU", "code": "12832" }
+    ]
+  },
+  {
+    "name": "BİTLİS",
+    "counties": [
+      { "name": "ADİLCEVAZ", "code": "13500" },
+      { "name": "AHLAT", "code": "13400" },
+      { "name": "GÜROYMAK", "code": "13810" },
+      { "name": "HİZAN", "code": "13600" },
+      { "name": "MERKEZ", "code": "13100" },
+      { "name": "MUTKİ", "code": "13703" },
+      { "name": "TATVAN", "code": "13202" }
+    ]
+  },
+  {
+    "name": "BOLU",
+    "counties": [
+      { "name": "DÖRTDİVAN", "code": "14910" },
+      { "name": "GEREDE", "code": "14900" },
+      { "name": "GÖYNÜK", "code": "14780" },
+      { "name": "KIBRISCIK", "code": "14610" },
+      { "name": "MENGEN", "code": "14850" },
+      { "name": "MERKEZ", "code": "14300" },
+      { "name": "MUDURNU", "code": "14802" },
+      { "name": "SEBEN", "code": "14752" },
+      { "name": "YENİÇAĞA", "code": "14652" }
+    ]
+  },
+  {
+    "name": "BURDUR",
+    "counties": [
+      { "name": "AĞLASUN", "code": "15800" },
+      { "name": "ALTINYAYLA", "code": "15420" },
+      { "name": "BUCAK", "code": "15300" },
+      { "name": "ÇAVDIR", "code": "15900" },
+      { "name": "ÇELTİKÇİ", "code": "15070" },
+      { "name": "GÖLHİSAR", "code": "15400" },
+      { "name": "KARAMANLI", "code": "15700" },
+      { "name": "KEMER", "code": "15090" },
+      { "name": "MERKEZ", "code": "15100" },
+      { "name": "TEFENNİ", "code": "15602" },
+      { "name": "YEŞİLOVA", "code": "15502" }
+    ]
+  },
+  {
+    "name": "BURSA",
+    "counties": [
+      { "name": "BÜYÜKORHAN", "code": "16990" },
+      { "name": "GEMLİK", "code": "16600" },
+      { "name": "GÜRSU", "code": "16580" },
+      { "name": "HARMANCIK", "code": "16770" },
+      { "name": "İNEGÖL", "code": "16400" },
+      { "name": "İZNİK", "code": "16860" },
+      { "name": "KARACABEY", "code": "16700" },
+      { "name": "KELES", "code": "16740" },
+      { "name": "KESTEL", "code": "16450" },
+      { "name": "MUDANYA", "code": "16940" },
+      { "name": "MUSTAFAKEMALPAŞA", "code": "16500" },
+      { "name": "NİLÜFER", "code": "16285" },
+      { "name": "ORHANELİ", "code": "16980" },
+      { "name": "ORHANGAZİ", "code": "16800" },
+      { "name": "OSMANGAZİ", "code": "16150" },
+      { "name": "YENİŞEHİR", "code": "16900" },
+      { "name": "YILDIRIM", "code": "16330" }
+    ]
+  },
+  {
+    "name": "ÇANAKKALE",
+    "counties": [
+      { "name": "AYVACIK", "code": "17860" },
+      { "name": "BAYRAMİÇ", "code": "17700" },
+      { "name": "BİGA", "code": "17200" },
+      { "name": "BOZCAADA", "code": "17680" },
+      { "name": "ÇAN", "code": "17400" },
+      { "name": "ECEABAT", "code": "17900" },
+      { "name": "EZİNE", "code": "17600" },
+      { "name": "GELİBOLU", "code": "17360" },
+      { "name": "GÖKÇEADA", "code": "17760" },
+      { "name": "LAPSEKİ", "code": "17810" },
+      { "name": "MERKEZ", "code": "17020" },
+      { "name": "YENİCE", "code": "17560" }
+    ]
+  },
+  {
+    "name": "ÇANKIRI",
+    "counties": [
+      { "name": "ATKARACALAR", "code": "18310" },
+      { "name": "BAYRAMÖREN", "code": "18320" },
+      { "name": "ÇERKEŞ", "code": "18600" },
+      { "name": "ELDİVAN", "code": "18700" },
+      { "name": "ILGAZ", "code": "18400" },
+      { "name": "KIZILIRMAK", "code": "18280" },
+      { "name": "KORGUN", "code": "18260" },
+      { "name": "KURŞUNLU", "code": "18300" },
+      { "name": "MERKEZ", "code": "18100" },
+      { "name": "ORTA", "code": "18802" },
+      { "name": "ŞABANÖZÜ", "code": "18652" },
+      { "name": "YAPRAKLI", "code": "18902" }
+    ]
+  },
+  {
+    "name": "ÇORUM",
+    "counties": [
+      { "name": "ALACA", "code": "19600" },
+      { "name": "BAYAT", "code": "19800" },
+      { "name": "BOĞAZKALE", "code": "19310" },
+      { "name": "DODURGA", "code": "19060" },
+      { "name": "İSKİLİP", "code": "19400" },
+      { "name": "KARGI", "code": "19900" },
+      { "name": "LAÇİN", "code": "19020" },
+      { "name": "MECİTÖZÜ", "code": "19700" },
+      { "name": "MERKEZ", "code": "19015" },
+      { "name": "OĞUZLAR", "code": "19070" },
+      { "name": "ORTAKÖY", "code": "19955" },
+      { "name": "OSMANCIK", "code": "19502" },
+      { "name": "SUNGURLU", "code": "19302" },
+      { "name": "UĞURLUDAĞ", "code": "19412" }
+    ]
+  },
+  {
+    "name": "DENİZLİ",
+    "counties": [
+      { "name": "ACIPAYAM", "code": "20800" },
+      { "name": "BABADAĞ", "code": "20480" },
+      { "name": "BAKLAN", "code": "20770" },
+      { "name": "BEKİLLİ", "code": "20930" },
+      { "name": "BEYAĞAÇ", "code": "20590" },
+      { "name": "BOZKURT", "code": "20370" },
+      { "name": "BULDAN", "code": "20400" },
+      { "name": "ÇAL", "code": "20700" },
+      { "name": "ÇAMELİ", "code": "20980" },
+      { "name": "ÇARDAK", "code": "20350" },
+      { "name": "ÇİVRİL", "code": "20600" },
+      { "name": "GÜNEY", "code": "20460" },
+      { "name": "HONAZ", "code": "20330" },
+      { "name": "KALE", "code": "20570" },
+      { "name": "MERKEZEFENDİ", "code": "20040" },
+      { "name": "PAMUKKALE", "code": "20260" },
+      { "name": "SARAYKÖY", "code": "20300" },
+      { "name": "SERİNHİSAR", "code": "20430" },
+      { "name": "TAVAS", "code": "20500" }
+    ]
+  },
+  {
+    "name": "DİYARBAKIR",
+    "counties": [
+      { "name": "BAĞLAR", "code": "21050" },
+      { "name": "BİSMİL", "code": "21500" },
+      { "name": "ÇERMİK", "code": "21600" },
+      { "name": "ÇINAR", "code": "21750" },
+      { "name": "ÇÜNGÜŞ", "code": "21870" },
+      { "name": "DİCLE", "code": "21830" },
+      { "name": "EĞİL", "code": "21470" },
+      { "name": "ERGANİ", "code": "21950" },
+      { "name": "HANİ", "code": "21800" },
+      { "name": "HAZRO", "code": "21560" },
+      { "name": "KAYAPINAR", "code": "21070" },
+      { "name": "KOCAKÖY", "code": "21450" },
+      { "name": "KULP", "code": "21900" },
+      { "name": "LİCE", "code": "21700" },
+      { "name": "SİLVAN", "code": "21640" },
+      { "name": "SUR", "code": "21200" },
+      { "name": "YENİŞEHİR", "code": "21120" }
+    ]
+  },
+  {
+    "name": "DÜZCE",
+    "counties": [
+      { "name": "AKÇAKOCA", "code": "81650" },
+      { "name": "CUMAYERİ", "code": "81700" },
+      { "name": "ÇİLİMLİ", "code": "81750" },
+      { "name": "GÖLYAKA", "code": "81800" },
+      { "name": "GÜMÜŞOVA", "code": "81850" },
+      { "name": "KAYNAŞLI", "code": "81900" },
+      { "name": "MERKEZ", "code": "81630" },
+      { "name": "YIĞILCA", "code": "81952" }
+    ]
+  },
+  {
+    "name": "EDİRNE",
+    "counties": [
+      { "name": "ENEZ", "code": "22700" },
+      { "name": "HAVSA", "code": "22530" },
+      { "name": "İPSALA", "code": "22440" },
+      { "name": "KEŞAN", "code": "22890" },
+      { "name": "LALAPAŞA", "code": "22950" },
+      { "name": "MERİÇ", "code": "22610" },
+      { "name": "MERKEZ", "code": "22100" },
+      { "name": "SÜLOĞLU", "code": "22580" },
+      { "name": "UZUNKÖPRÜ", "code": "22300" }
+    ]
+  },
+  {
+    "name": "ELAZIĞ",
+    "counties": [
+      { "name": "AĞIN", "code": "23960" },
+      { "name": "ALACAKAYA", "code": "23410" },
+      { "name": "ARICAK", "code": "23510" },
+      { "name": "BASKİL", "code": "23800" },
+      { "name": "KARAKOÇAN", "code": "23600" },
+      { "name": "KEBAN", "code": "23700" },
+      { "name": "KOVANCILAR", "code": "23850" },
+      { "name": "MADEN", "code": "23400" },
+      { "name": "MERKEZ", "code": "23270" },
+      { "name": "PALU", "code": "23530" },
+      { "name": "SİVRİCE", "code": "23902" }
+    ]
+  },
+  {
+    "name": "ERZİNCAN",
+    "counties": [
+      { "name": "ÇAYIRLI", "code": "24500" },
+      { "name": "İLİÇ", "code": "24700" },
+      { "name": "KEMAH", "code": "24400" },
+      { "name": "KEMALİYE", "code": "24610" },
+      { "name": "MERKEZ", "code": "24100" },
+      { "name": "OTLUKBELİ", "code": "24515" },
+      { "name": "REFAHİYE", "code": "24302" },
+      { "name": "TERCAN", "code": "24870" },
+      { "name": "ÜZÜMLÜ", "code": "24160" }
+    ]
+  },
+  {
+    "name": "ERZURUM",
+    "counties": [
+      { "name": "AŞKALE", "code": "25500" },
+      { "name": "AZİZİYE", "code": "25700" },
+      { "name": "ÇAT", "code": "25750" },
+      { "name": "HINIS", "code": "25600" },
+      { "name": "HORASAN", "code": "25800" },
+      { "name": "İSPİR", "code": "25900" },
+      { "name": "KARAÇOBAN", "code": "25610" },
+      { "name": "KARAYAZI", "code": "25830" },
+      { "name": "KÖPRÜKÖY", "code": "25320" },
+      { "name": "NARMAN", "code": "25530" },
+      { "name": "OLTU", "code": "25400" },
+      { "name": "OLUR", "code": "25650" },
+      { "name": "PALANDÖKEN", "code": "25080" },
+      { "name": "PASİNLER", "code": "25300" },
+      { "name": "PAZARYOLU", "code": "25930" },
+      { "name": "ŞENKAYA", "code": "25360" },
+      { "name": "TEKMAN", "code": "25560" },
+      { "name": "TORTUM", "code": "25430" },
+      { "name": "UZUNDERE", "code": "25440" },
+      { "name": "YAKUTİYE", "code": "25200" }
+    ]
+  },
+  {
+    "name": "ESKİŞEHİR",
+    "counties": [
+      { "name": "ALPU", "code": "26850" },
+      { "name": "BEYLİKOVA", "code": "26750" },
+      { "name": "ÇİFTELER", "code": "26700" },
+      { "name": "GÜNYÜZÜ", "code": "26630" },
+      { "name": "HAN", "code": "26710" },
+      { "name": "İNÖNÜ", "code": "26670" },
+      { "name": "MAHMUDİYE", "code": "26800" },
+      { "name": "MİHALGAZİ", "code": "26880" },
+      { "name": "MİHALIÇÇIK", "code": "26940" },
+      { "name": "ODUNPAZARI", "code": "26030" },
+      { "name": "SARICAKAYA", "code": "26870" },
+      { "name": "SEYİTGAZİ", "code": "26950" },
+      { "name": "SİVRİHİSAR", "code": "26600" },
+      { "name": "TEPEBAŞI", "code": "26170" }
+    ]
+  },
+  {
+    "name": "GAZİANTEP",
+    "counties": [
+      { "name": "ARABAN", "code": "27650" },
+      { "name": "İSLAHİYE", "code": "27800" },
+      { "name": "KARKAMIŞ", "code": "27880" },
+      { "name": "NİZİP", "code": "27700" },
+      { "name": "NURDAĞI", "code": "27840" },
+      { "name": "OĞUZELİ", "code": "27900" },
+      { "name": "ŞAHİNBEY", "code": "27220" },
+      { "name": "ŞEHİTKAMİL", "code": "27080" },
+      { "name": "YAVUZELİ", "code": "27970" }
+    ]
+  },
+  {
+    "name": "GİRESUN",
+    "counties": [
+      { "name": "ALUCRA", "code": "28700" },
+      { "name": "BULANCAK", "code": "28328" },
+      { "name": "ÇAMOLUK", "code": "28710" },
+      { "name": "ÇANAKÇI", "code": "28810" },
+      { "name": "DERELİ", "code": "28950" },
+      { "name": "DOĞANKENT", "code": "28510" },
+      { "name": "ESPİYE", "code": "28600" },
+      { "name": "EYNESİL", "code": "28850" },
+      { "name": "GÖRELE", "code": "28820" },
+      { "name": "GÜCE", "code": "28520" },
+      { "name": "KEŞAP", "code": "28900" },
+      { "name": "MERKEZ", "code": "28100" },
+      { "name": "PİRAZİZ", "code": "28342" },
+      { "name": "ŞEBİNKARAHİSAR", "code": "28402" },
+      { "name": "TİREBOLU", "code": "28502" },
+      { "name": "YAĞLIDERE", "code": "28612" }
+    ]
+  },
+  {
+    "name": "GÜMÜŞHANE",
+    "counties": [
+      { "name": "KELKİT", "code": "29610" },
+      { "name": "KÖSE", "code": "29650" },
+      { "name": "KÜRTÜN", "code": "29830" },
+      { "name": "MERKEZ", "code": "29020" },
+      { "name": "ŞİRAN", "code": "29702" },
+      { "name": "TORUL", "code": "29802" }
+    ]
+  },
+  {
+    "name": "HAKKARİ",
+    "counties": [
+      { "name": "ÇUKURCA", "code": "30720" },
+      { "name": "DERECİK", "code": "30600" },
+      { "name": "MERKEZ", "code": "30120" },
+      { "name": "ŞEMDİNLİ", "code": "30802" },
+      { "name": "YÜKSEKOVA", "code": "30330" }
+    ]
+  },
+  {
+    "name": "HATAY",
+    "counties": [
+      { "name": "ALTINÖZÜ", "code": "31750" },
+      { "name": "ANTAKYA", "code": "31040" },
+      { "name": "ARSUZ", "code": "31225" },
+      { "name": "BELEN", "code": "31350" },
+      { "name": "DEFNE", "code": "31160" },
+      { "name": "DÖRTYOL", "code": "31600" },
+      { "name": "ERZİN", "code": "31960" },
+      { "name": "HASSA", "code": "31700" },
+      { "name": "İSKENDERUN", "code": "31280" },
+      { "name": "KIRIKHAN", "code": "31440" },
+      { "name": "KUMLU", "code": "31520" },
+      { "name": "PAYAS", "code": "31900" },
+      { "name": "REYHANLI", "code": "31500" },
+      { "name": "SAMANDAĞ", "code": "31800" },
+      { "name": "YAYLADAĞI", "code": "31550" }
+    ]
+  },
+  {
+    "name": "IĞDIR",
+    "counties": [
+      { "name": "ARALIK", "code": "76500" },
+      { "name": "KARAKOYUNLU", "code": "76700" },
+      { "name": "MERKEZ", "code": "76410" },
+      { "name": "TUZLUCA", "code": "76902" }
+    ]
+  },
+  {
+    "name": "ISPARTA",
+    "counties": [
+      { "name": "AKSU", "code": "32510" },
+      { "name": "ATABEY", "code": "32670" },
+      { "name": "EĞİRDİR", "code": "32500" },
+      { "name": "GELENDOST", "code": "32900" },
+      { "name": "GÖNEN", "code": "32090" },
+      { "name": "KEÇİBORLU", "code": "32700" },
+      { "name": "MERKEZ", "code": "32040" },
+      { "name": "SENİRKENT", "code": "32610" },
+      { "name": "SÜTÇÜLER", "code": "32952" },
+      { "name": "ŞARKİKARAAĞAÇ", "code": "32810" },
+      { "name": "ULUBORLU", "code": "32652" },
+      { "name": "YALVAÇ", "code": "32430" },
+      { "name": "YENİŞARBADEMLİ", "code": "32852" }
+    ]
+  },
+  {
+    "name": "İSTANBUL",
+    "counties": [
+      { "name": "ADALAR", "code": "34975" },
+      { "name": "ARNAVUTKÖY", "code": "34275" },
+      { "name": "ATAŞEHİR", "code": "34758" },
+      { "name": "AVCILAR", "code": "34315" },
+      { "name": "BAĞCILAR", "code": "34200" },
+      { "name": "BAHÇELİEVLER", "code": "34180" },
+      { "name": "BAKIRKÖY", "code": "34158" },
+      { "name": "BAŞAKŞEHİR", "code": "34494" },
+      { "name": "BAYRAMPAŞA", "code": "34035" },
+      { "name": "BEŞİKTAŞ", "code": "34022" },
+      { "name": "BEYKOZ", "code": "34810" },
+      { "name": "BEYLİKDÜZÜ", "code": "34520" },
+      { "name": "BEYOĞLU", "code": "34421" },
+      { "name": "BÜYÜKÇEKMECE", "code": "34500" },
+      { "name": "ÇATALCA", "code": "34540" },
+      { "name": "ÇEKMEKÖY", "code": "34794" },
+      { "name": "ESENLER", "code": "34230" },
+      { "name": "ESENYURT", "code": "34517" },
+      { "name": "EYÜPSULTAN", "code": "34060" },
+      { "name": "FATİH", "code": "34096" },
+      { "name": "GAZİOSMANPAŞA", "code": "34245" },
+      { "name": "GÜNGÖREN", "code": "34160" },
+      { "name": "KADIKÖY", "code": "34744" },
+      { "name": "KAĞITHANE", "code": "34403" },
+      { "name": "KARTAL", "code": "34862" },
+      { "name": "KÜÇÜKÇEKMECE", "code": "34307" },
+      { "name": "MALTEPE", "code": "34854" },
+      { "name": "PENDİK", "code": "34893" },
+      { "name": "SANCAKTEPE", "code": "34885" },
+      { "name": "SARIYER", "code": "34473" },
+      { "name": "SİLİVRİ", "code": "34594" },
+      { "name": "SULTANBEYLİ", "code": "34920" },
+      { "name": "SULTANGAZİ", "code": "34265" },
+      { "name": "ŞİLE", "code": "34990" },
+      { "name": "ŞİŞLİ", "code": "34375" },
+      { "name": "TUZLA", "code": "34959" },
+      { "name": "ÜMRANİYE", "code": "34773" },
+      { "name": "ÜSKÜDAR", "code": "34660" },
+      { "name": "ZEYTİNBURNU", "code": "34025" }
+    ]
+  },
+  {
+    "name": "İZMİR",
+    "counties": [
+      { "name": "ALİAĞA", "code": "35800" },
+      { "name": "BALÇOVA", "code": "35330" },
+      { "name": "BAYINDIR", "code": "35840" },
+      { "name": "BAYRAKLI", "code": "35540" },
+      { "name": "BERGAMA", "code": "35700" },
+      { "name": "BEYDAĞ", "code": "35790" },
+      { "name": "BORNOVA", "code": "35080" },
+      { "name": "BUCA", "code": "35390" },
+      { "name": "ÇEŞME", "code": "35937" },
+      { "name": "ÇİĞLİ", "code": "35640" },
+      { "name": "DİKİLİ", "code": "35980" },
+      { "name": "FOÇA", "code": "35683" },
+      { "name": "GAZİEMİR", "code": "35410" },
+      { "name": "GÜZELBAHÇE", "code": "35310" },
+      { "name": "KARABAĞLAR", "code": "35140" },
+      { "name": "KARABURUN", "code": "35960" },
+      { "name": "KARŞIYAKA", "code": "35600" },
+      { "name": "KEMALPAŞA", "code": "35737" },
+      { "name": "KINIK", "code": "35990" },
+      { "name": "KİRAZ", "code": "35890" },
+      { "name": "KONAK", "code": "35220" },
+      { "name": "MENDERES", "code": "35479" },
+      { "name": "MENEMEN", "code": "35660" },
+      { "name": "NARLIDERE", "code": "35320" },
+      { "name": "ÖDEMİŞ", "code": "35750" },
+      { "name": "SEFERİHİSAR", "code": "35465" },
+      { "name": "SELÇUK", "code": "35920" },
+      { "name": "TİRE", "code": "35900" },
+      { "name": "TORBALI", "code": "35870" },
+      { "name": "URLA", "code": "35432" }
+    ]
+  },
+  {
+    "name": "KAHRAMANMARAŞ",
+    "counties": [
+      { "name": "AFŞİN", "code": "46500" },
+      { "name": "ANDIRIN", "code": "46400" },
+      { "name": "ÇAĞLAYANCERİT", "code": "46720" },
+      { "name": "DULKADİROĞLU", "code": "46100" },
+      { "name": "EKİNÖZÜ", "code": "46360" },
+      { "name": "ELBİSTAN", "code": "46300" },
+      { "name": "GÖKSUN", "code": "46600" },
+      { "name": "NURHAK", "code": "46370" },
+      { "name": "ONİKİŞUBAT", "code": "46050" },
+      { "name": "PAZARCIK", "code": "46700" },
+      { "name": "TÜRKOĞLU", "code": "46800" }
+    ]
+  },
+  {
+    "name": "KARABÜK",
+    "counties": [
+      { "name": "EFLANİ", "code": "78300" },
+      { "name": "ESKİPAZAR", "code": "78400" },
+      { "name": "MERKEZ", "code": "78050" },
+      { "name": "OVACIK", "code": "78502" },
+      { "name": "SAFRANBOLU", "code": "78602" },
+      { "name": "YENİCE", "code": "78702" }
+    ]
+  },
+  {
+    "name": "KARAMAN",
+    "counties": [
+      { "name": "AYRANCI", "code": "70500" },
+      { "name": "BAŞYAYLA", "code": "70700" },
+      { "name": "ERMENEK", "code": "70400" },
+      { "name": "KAZIMKARABEKİR", "code": "70600" },
+      { "name": "MERKEZ", "code": "70110" },
+      { "name": "SARIVELİLER", "code": "70810" }
+    ]
+  },
+  {
+    "name": "KARS",
+    "counties": [
+      { "name": "AKYAKA", "code": "36780" },
+      { "name": "ARPAÇAY", "code": "36730" },
+      { "name": "DİGOR", "code": "36680" },
+      { "name": "KAĞIZMAN", "code": "36700" },
+      { "name": "MERKEZ", "code": "36100" },
+      { "name": "SARIKAMIŞ", "code": "36502" },
+      { "name": "SELİM", "code": "36902" },
+      { "name": "SUSUZ", "code": "36762" }
+    ]
+  },
+  {
+    "name": "KASTAMONU",
+    "counties": [
+      { "name": "ABANA", "code": "37970" },
+      { "name": "AĞLI", "code": "37920" },
+      { "name": "ARAÇ", "code": "37800" },
+      { "name": "AZDAVAY", "code": "37750" },
+      { "name": "BOZKURT", "code": "37680" },
+      { "name": "CİDE", "code": "37600" },
+      { "name": "ÇATALZEYTİN", "code": "37940" },
+      { "name": "DADAY", "code": "37870" },
+      { "name": "DEVREKANİ", "code": "37700" },
+      { "name": "DOĞANYURT", "code": "37550" },
+      { "name": "HANÖNÜ", "code": "37450" },
+      { "name": "İHSANGAZİ", "code": "37250" },
+      { "name": "İNEBOLU", "code": "37500" },
+      { "name": "KÜRE", "code": "37900" },
+      { "name": "MERKEZ", "code": "37100" },
+      { "name": "PINARBAŞI", "code": "37772" },
+      { "name": "SEYDİLER", "code": "37272" },
+      { "name": "ŞENPAZAR", "code": "37652" },
+      { "name": "TAŞKÖPRÜ", "code": "37402" },
+      { "name": "TOSYA", "code": "37302" }
+    ]
+  },
+  {
+    "name": "KAYSERİ",
+    "counties": [
+      { "name": "AKKIŞLA", "code": "38830" },
+      { "name": "BÜNYAN", "code": "38600" },
+      { "name": "DEVELİ", "code": "38400" },
+      { "name": "FELAHİYE", "code": "38750" },
+      { "name": "HACILAR", "code": "38310" },
+      { "name": "İNCESU", "code": "38560" },
+      { "name": "KOCASİNAN", "code": "38090" },
+      { "name": "MELİKGAZİ", "code": "38150" },
+      { "name": "ÖZVATAN", "code": "38770" },
+      { "name": "PINARBAŞI", "code": "38700" },
+      { "name": "SARIOĞLAN", "code": "38820" },
+      { "name": "SARIZ", "code": "38660" },
+      { "name": "TALAS", "code": "38280" },
+      { "name": "TOMARZA", "code": "38900" },
+      { "name": "YAHYALI", "code": "38500" },
+      { "name": "YEŞİLHİSAR", "code": "38800" }
+    ]
+  },
+  {
+    "name": "KIRIKKALE",
+    "counties": [
+      { "name": "BAHŞILI", "code": "71460" },
+      { "name": "BALIŞEYH", "code": "71520" },
+      { "name": "ÇELEBİ", "code": "71810" },
+      { "name": "DELİCE", "code": "71670" },
+      { "name": "KARAKEÇİLİ", "code": "71500" },
+      { "name": "KESKİN", "code": "71800" },
+      { "name": "MERKEZ", "code": "71100" },
+      { "name": "SULAKYURT", "code": "71902" },
+      { "name": "YAHŞİHAN", "code": "71452" }
+    ]
+  },
+  {
+    "name": "KIRKLARELİ",
+    "counties": [
+      { "name": "BABAESKİ", "code": "39570" },
+      { "name": "DEMİRKÖY", "code": "39500" },
+      { "name": "KOFÇAZ", "code": "39700" },
+      { "name": "LÜLEBURGAZ", "code": "39770" },
+      { "name": "MERKEZ", "code": "39002" },
+      { "name": "PEHLİVANKÖY", "code": "39640" },
+      { "name": "PINARHİSAR", "code": "39310" },
+      { "name": "VİZE", "code": "39401" }
+    ]
+  },
+  {
+    "name": "KIRŞEHİR",
+    "counties": [
+      { "name": "AKÇAKENT", "code": "40720" },
+      { "name": "AKPINAR", "code": "40320" },
+      { "name": "BOZTEPE", "code": "40020" },
+      { "name": "ÇİÇEKDAĞI", "code": "40700" },
+      { "name": "KAMAN", "code": "40300" },
+      { "name": "MERKEZ", "code": "40100" },
+      { "name": "MUCUR", "code": "40502" }
+    ]
+  },
+  {
+    "name": "KİLİS",
+    "counties": [
+      { "name": "ELBEYLİ", "code": "79500" },
+      { "name": "MERKEZ", "code": "79090" },
+      { "name": "MUSABEYLİ", "code": "79602" },
+      { "name": "POLATELİ", "code": "79702" }
+    ]
+  },
+  {
+    "name": "KOCAELİ",
+    "counties": [
+      { "name": "BAŞİSKELE", "code": "41030" },
+      { "name": "ÇAYIROVA", "code": "41420" },
+      { "name": "DARICA", "code": "41700" },
+      { "name": "DERİNCE", "code": "41900" },
+      { "name": "DİLOVASI", "code": "41455" },
+      { "name": "GEBZE", "code": "41400" },
+      { "name": "GÖLCÜK", "code": "41950" },
+      { "name": "İZMİT", "code": "41310" },
+      { "name": "KANDIRA", "code": "41600" },
+      { "name": "KARAMÜRSEL", "code": "41500" },
+      { "name": "KARTEPE", "code": "41285" },
+      { "name": "KÖRFEZ", "code": "41800" }
+    ]
+  },
+  {
+    "name": "KONYA",
+    "counties": [
+      { "name": "AHIRLI", "code": "42390" },
+      { "name": "AKÖREN", "code": "42460" },
+      { "name": "AKŞEHİR", "code": "42570" },
+      { "name": "ALTINEKİN", "code": "42450" },
+      { "name": "BEYŞEHİR", "code": "42705" },
+      { "name": "BOZKIR", "code": "42630" },
+      { "name": "CİHANBEYLİ", "code": "42855" },
+      { "name": "ÇELTİK", "code": "42920" },
+      { "name": "ÇUMRA", "code": "42500" },
+      { "name": "DERBENT", "code": "42900" },
+      { "name": "DEREBUCAK", "code": "42480" },
+      { "name": "DOĞANHİSAR", "code": "42940" },
+      { "name": "EMİRGAZİ", "code": "42910" },
+      { "name": "EREĞLİ", "code": "42340" },
+      { "name": "GÜNEYSINIR", "code": "42490" },
+      { "name": "HADİM", "code": "42830" },
+      { "name": "HALKAPINAR", "code": "42980" },
+      { "name": "HÜYÜK", "code": "42690" },
+      { "name": "ILGIN", "code": "42610" },
+      { "name": "KADINHANI", "code": "42800" },
+      { "name": "KARAPINAR", "code": "42400" },
+      { "name": "KARATAY", "code": "42050" },
+      { "name": "KULU", "code": "42770" },
+      { "name": "MERAM", "code": "42040" },
+      { "name": "SARAYÖNÜ", "code": "42430" },
+      { "name": "SELÇUKLU", "code": "42100" },
+      { "name": "SEYDİŞEHİR", "code": "42370" },
+      { "name": "TAŞKENT", "code": "42960" },
+      { "name": "TUZLUKÇU", "code": "42970" },
+      { "name": "YALIHÜYÜK", "code": "42470" },
+      { "name": "YUNAK", "code": "42530" }
+    ]
+  },
+  {
+    "name": "KÜTAHYA",
+    "counties": [
+      { "name": "ALTINTAŞ", "code": "43800" },
+      { "name": "ASLANAPA", "code": "43210" },
+      { "name": "ÇAVDARHİSAR", "code": "43710" },
+      { "name": "DOMANİÇ", "code": "43860" },
+      { "name": "DUMLUPINAR", "code": "43820" },
+      { "name": "EMET", "code": "43700" },
+      { "name": "GEDİZ", "code": "43640" },
+      { "name": "HİSARCIK", "code": "43780" },
+      { "name": "MERKEZ", "code": "43020" },
+      { "name": "PAZARLAR", "code": "43532" },
+      { "name": "SİMAV", "code": "43590" },
+      { "name": "ŞAPHANE", "code": "43952" },
+      { "name": "TAVŞANLI", "code": "43410" }
+    ]
+  },
+  {
+    "name": "MALATYA",
+    "counties": [
+      { "name": "AKÇADAĞ", "code": "44600" },
+      { "name": "ARAPGİR", "code": "44800" },
+      { "name": "ARGUVAN", "code": "44960" },
+      { "name": "BATTALGAZİ", "code": "44210" },
+      { "name": "DARENDE", "code": "44700" },
+      { "name": "DOĞANŞEHİR", "code": "44500" },
+      { "name": "DOĞANYOL", "code": "44880" },
+      { "name": "HEKİMHAN", "code": "44400" },
+      { "name": "KALE", "code": "44370" },
+      { "name": "KULUNCAK", "code": "44760" },
+      { "name": "PÜTÜRGE", "code": "44850" },
+      { "name": "YAZIHAN", "code": "44350" },
+      { "name": "YEŞİLYURT", "code": "44915" }
+    ]
+  },
+  {
+    "name": "MANİSA",
+    "counties": [
+      { "name": "AHMETLİ", "code": "45450" },
+      { "name": "AKHİSAR", "code": "45200" },
+      { "name": "ALAŞEHİR", "code": "45600" },
+      { "name": "DEMİRCİ", "code": "45900" },
+      { "name": "GÖLMARMARA", "code": "45580" },
+      { "name": "GÖRDES", "code": "45753" },
+      { "name": "KIRKAĞAÇ", "code": "45730" },
+      { "name": "KÖPRÜBAŞI", "code": "45930" },
+      { "name": "KULA", "code": "45170" },
+      { "name": "SALİHLİ", "code": "45320" },
+      { "name": "SARIGÖL", "code": "45470" },
+      { "name": "SARUHANLI", "code": "45880" },
+      { "name": "SELENDİ", "code": "45970" },
+      { "name": "SOMA", "code": "45520" },
+      { "name": "ŞEHZADELER", "code": "45060" },
+      { "name": "TURGUTLU", "code": "45415" },
+      { "name": "YUNUSEMRE", "code": "45125" }
+    ]
+  },
+  {
+    "name": "MARDİN",
+    "counties": [
+      { "name": "ARTUKLU", "code": "47420" },
+      { "name": "DARGEÇİT", "code": "47750" },
+      { "name": "DERİK", "code": "47800" },
+      { "name": "KIZILTEPE", "code": "47400" },
+      { "name": "MAZIDAĞI", "code": "47700" },
+      { "name": "MİDYAT", "code": "47510" },
+      { "name": "NUSAYBİN", "code": "47300" },
+      { "name": "ÖMERLİ", "code": "47570" },
+      { "name": "SAVUR", "code": "47860" },
+      { "name": "YEŞİLLİ", "code": "47650" }
+    ]
+  },
+  {
+    "name": "MERSİN",
+    "counties": [
+      { "name": "AKDENİZ", "code": "33280" },
+      { "name": "ANAMUR", "code": "33630" },
+      { "name": "AYDINCIK", "code": "33840" },
+      { "name": "BOZYAZI", "code": "33707" },
+      { "name": "ÇAMLIYAYLA", "code": "33580" },
+      { "name": "ERDEMLİ", "code": "33730" },
+      { "name": "GÜLNAR", "code": "33700" },
+      { "name": "MEZİTLİ", "code": "33210" },
+      { "name": "MUT", "code": "33600" },
+      { "name": "SİLİFKE", "code": "33990" },
+      { "name": "TARSUS", "code": "33460" },
+      { "name": "TOROSLAR", "code": "33220" },
+      { "name": "YENİŞEHİR", "code": "33120" }
+    ]
+  },
+  {
+    "name": "MUĞLA",
+    "counties": [
+      { "name": "BODRUM", "code": "48400" },
+      { "name": "DALAMAN", "code": "48770" },
+      { "name": "DATÇA", "code": "48900" },
+      { "name": "FETHİYE", "code": "48300" },
+      { "name": "KAVAKLIDERE", "code": "48570" },
+      { "name": "KÖYCEĞİZ", "code": "48800" },
+      { "name": "MARMARİS", "code": "48700" },
+      { "name": "MENTEŞE", "code": "48050" },
+      { "name": "MİLAS", "code": "48200" },
+      { "name": "ORTACA", "code": "48600" },
+      { "name": "SEYDİKEMER", "code": "48850" },
+      { "name": "ULA", "code": "48640" },
+      { "name": "YATAĞAN", "code": "48500" }
+    ]
+  },
+  {
+    "name": "MUŞ",
+    "counties": [
+      { "name": "BULANIK", "code": "49500" },
+      { "name": "HASKÖY", "code": "49710" },
+      { "name": "KORKUT", "code": "49730" },
+      { "name": "MALAZGİRT", "code": "49540" },
+      { "name": "MERKEZ", "code": "49170" },
+      { "name": "VARTO", "code": "49610" }
+    ]
+  },
+  {
+    "name": "NEVŞEHİR",
+    "counties": [
+      { "name": "ACIGÖL", "code": "50140" },
+      { "name": "AVANOS", "code": "50500" },
+      { "name": "DERİNKUYU", "code": "50700" },
+      { "name": "GÜLŞEHİR", "code": "50900" },
+      { "name": "HACIBEKTAŞ", "code": "50800" },
+      { "name": "KOZAKLI", "code": "50600" },
+      { "name": "MERKEZ", "code": "50200" },
+      { "name": "ÜRGÜP", "code": "50402" }
+    ]
+  },
+  {
+    "name": "NİĞDE",
+    "counties": [
+      { "name": "ALTUNHİSAR", "code": "51600" },
+      { "name": "BOR", "code": "51710" },
+      { "name": "ÇAMARDI", "code": "51660" },
+      { "name": "ÇİFTLİK", "code": "51810" },
+      { "name": "MERKEZ", "code": "51200" },
+      { "name": "ULUKIŞLA", "code": "51902" }
+    ]
+  },
+  {
+    "name": "ORDU",
+    "counties": [
+      { "name": "AKKUŞ", "code": "52950" },
+      { "name": "ALTINORDU", "code": "52200" },
+      { "name": "AYBASTI", "code": "52500" },
+      { "name": "ÇAMAŞ", "code": "52430" },
+      { "name": "ÇATALPINAR", "code": "52420" },
+      { "name": "ÇAYBAŞI", "code": "52310" },
+      { "name": "FATSA", "code": "52400" },
+      { "name": "GÖLKÖY", "code": "52600" },
+      { "name": "GÜLYALI", "code": "52010" },
+      { "name": "GÜRGENTEPE", "code": "52610" },
+      { "name": "İKİZCE", "code": "52320" },
+      { "name": "KABADÜZ", "code": "52020" },
+      { "name": "KABATAŞ", "code": "52520" },
+      { "name": "KORGAN", "code": "52700" },
+      { "name": "KUMRU", "code": "52800" },
+      { "name": "MESUDİYE", "code": "52900" },
+      { "name": "PERŞEMBE", "code": "52750" },
+      { "name": "ULUBEY", "code": "52850" },
+      { "name": "ÜNYE", "code": "52300" }
+    ]
+  },
+  {
+    "name": "OSMANİYE",
+    "counties": [
+      { "name": "BAHÇE", "code": "80500" },
+      { "name": "DÜZİÇİ", "code": "80710" },
+      { "name": "HASANBEYLİ", "code": "80850" },
+      { "name": "KADİRLİ", "code": "80760" },
+      { "name": "MERKEZ", "code": "80010" },
+      { "name": "SUMBAS", "code": "80940" },
+      { "name": "TOPRAKKALE", "code": "80952" }
+    ]
+  },
+  {
+    "name": "RİZE",
+    "counties": [
+      { "name": "ARDEŞEN", "code": "53400" },
+      { "name": "ÇAMLIHEMŞİN", "code": "53750" },
+      { "name": "ÇAYELİ", "code": "53210" },
+      { "name": "DEREPAZARI", "code": "53900" },
+      { "name": "FINDIKLI", "code": "53700" },
+      { "name": "GÜNEYSU", "code": "53350" },
+      { "name": "HEMŞİN", "code": "53550" },
+      { "name": "İKİZDERE", "code": "53650" },
+      { "name": "İYİDERE", "code": "53600" },
+      { "name": "KALKANDERE", "code": "53500" },
+      { "name": "MERKEZ", "code": "53800" },
+      { "name": "PAZAR", "code": "53340" }
+    ]
+  },
+  {
+    "name": "SAKARYA",
+    "counties": [
+      { "name": "ADAPAZARI", "code": "54100" },
+      { "name": "AKYAZI", "code": "54400" },
+      { "name": "ARİFİYE", "code": "54580" },
+      { "name": "ERENLER", "code": "54200" },
+      { "name": "FERİZLİ", "code": "54110" },
+      { "name": "GEYVE", "code": "54700" },
+      { "name": "HENDEK", "code": "54300" },
+      { "name": "KARAPÜRÇEK", "code": "54430" },
+      { "name": "KARASU", "code": "54500" },
+      { "name": "KAYNARCA", "code": "54650" },
+      { "name": "KOCAALİ", "code": "54800" },
+      { "name": "PAMUKOVA", "code": "54900" },
+      { "name": "SAPANCA", "code": "54600" },
+      { "name": "SERDİVAN", "code": "54050" },
+      { "name": "SÖĞÜTLÜ", "code": "54160" },
+      { "name": "TARAKLI", "code": "54750" }
+    ]
+  },
+  {
+    "name": "SAMSUN",
+    "counties": [
+      { "name": "19 MAYIS", "code": "55420" },
+      { "name": "ALAÇAM", "code": "55800" },
+      { "name": "ASARCIK", "code": "55860" },
+      { "name": "ATAKUM", "code": "55200" },
+      { "name": "AYVACIK", "code": "55550" },
+      { "name": "BAFRA", "code": "55400" },
+      { "name": "CANİK", "code": "55080" },
+      { "name": "ÇARŞAMBA", "code": "55500" },
+      { "name": "HAVZA", "code": "55700" },
+      { "name": "İLKADIM", "code": "55070" },
+      { "name": "KAVAK", "code": "55850" },
+      { "name": "LADİK", "code": "55760" },
+      { "name": "SALIPAZARI", "code": "55530" },
+      { "name": "TEKKEKÖY", "code": "55320" },
+      { "name": "TERME", "code": "55600" },
+      { "name": "VEZİRKÖPRÜ", "code": "55902" },
+      { "name": "YAKAKENT", "code": "55810" }
+    ]
+  },
+  {
+    "name": "SİİRT",
+    "counties": [
+      { "name": "BAYKAN", "code": "56465" },
+      { "name": "ERUH", "code": "56540" },
+      { "name": "KURTALAN", "code": "56505" },
+      { "name": "MERKEZ", "code": "56210" },
+      { "name": "PERVARİ", "code": "56705" },
+      { "name": "ŞİRVAN", "code": "56873" },
+      { "name": "TİLLO", "code": "56870" }
+    ]
+  },
+  {
+    "name": "SİNOP",
+    "counties": [
+      { "name": "AYANCIK", "code": "57400" },
+      { "name": "BOYABAT", "code": "57200" },
+      { "name": "DİKMEN", "code": "57660" },
+      { "name": "DURAĞAN", "code": "57700" },
+      { "name": "ERFELEK", "code": "57800" },
+      { "name": "GERZE", "code": "57600" },
+      { "name": "MERKEZ", "code": "57002" },
+      { "name": "SARAYDÜZÜ", "code": "57302" },
+      { "name": "TÜRKELİ", "code": "57902" }
+    ]
+  },
+  {
+    "name": "SİVAS",
+    "counties": [
+      { "name": "AKINCILAR", "code": "58550" },
+      { "name": "ALTINYAYLA", "code": "58470" },
+      { "name": "DİVRİĞİ", "code": "58300" },
+      { "name": "DOĞANŞAR", "code": "58780" },
+      { "name": "GEMEREK", "code": "58843" },
+      { "name": "GÖLOVA", "code": "58640" },
+      { "name": "GÜRÜN", "code": "58800" },
+      { "name": "HAFİK", "code": "58760" },
+      { "name": "İMRANLI", "code": "58980" },
+      { "name": "KANGAL", "code": "58900" },
+      { "name": "KOYULHİSAR", "code": "58660" },
+      { "name": "MERKEZ", "code": "58030" },
+      { "name": "SUŞEHRİ", "code": "58602" },
+      { "name": "ŞARKIŞLA", "code": "58405" },
+      { "name": "ULAŞ", "code": "58382" },
+      { "name": "YILDIZELİ", "code": "58525" },
+      { "name": "ZARA", "code": "58702" }
+    ]
+  },
+  {
+    "name": "ŞANLIURFA",
+    "counties": [
+      { "name": "AKÇAKALE", "code": "63500" },
+      { "name": "BİRECİK", "code": "63400" },
+      { "name": "BOZOVA", "code": "63850" },
+      { "name": "CEYLANPINAR", "code": "63570" },
+      { "name": "EYYÜBİYE", "code": "63210" },
+      { "name": "HALFETİ", "code": "63950" },
+      { "name": "HALİLİYE", "code": "63050" },
+      { "name": "HARRAN", "code": "63510" },
+      { "name": "HİLVAN", "code": "63900" },
+      { "name": "KARAKÖPRÜ", "code": "63320" },
+      { "name": "SİVEREK", "code": "63600" },
+      { "name": "SURUÇ", "code": "63800" },
+      { "name": "VİRANŞEHİR", "code": "63700" }
+    ]
+  },
+  {
+    "name": "ŞIRNAK",
+    "counties": [
+      { "name": "BEYTÜŞŞEBAP", "code": "73800" },
+      { "name": "CİZRE", "code": "73200" },
+      { "name": "GÜÇLÜKONAK", "code": "73710" },
+      { "name": "İDİL", "code": "73300" },
+      { "name": "MERKEZ", "code": "73030" },
+      { "name": "SİLOPİ", "code": "73430" },
+      { "name": "ULUDERE", "code": "73630" }
+    ]
+  },
+  {
+    "name": "TEKİRDAĞ",
+    "counties": [
+      { "name": "ÇERKEZKÖY", "code": "59500" },
+      { "name": "ÇORLU", "code": "59850" },
+      { "name": "ERGENE", "code": "59930" },
+      { "name": "HAYRABOLU", "code": "59400" },
+      { "name": "KAPAKLI", "code": "59510" },
+      { "name": "MALKARA", "code": "59300" },
+      { "name": "MARMARAEREĞLİSİ", "code": "59740" },
+      { "name": "MURATLI", "code": "59700" },
+      { "name": "SARAY", "code": "59600" },
+      { "name": "SÜLEYMANPAŞA", "code": "59100" },
+      { "name": "ŞARKÖY", "code": "59800" }
+    ]
+  },
+  {
+    "name": "TOKAT",
+    "counties": [
+      { "name": "ALMUS", "code": "60905" },
+      { "name": "ARTOVA", "code": "60670" },
+      { "name": "BAŞÇİFTLİK", "code": "60620" },
+      { "name": "ERBAA", "code": "60500" },
+      { "name": "MERKEZ", "code": "60225" },
+      { "name": "NİKSAR", "code": "60630" },
+      { "name": "PAZAR", "code": "60802" },
+      { "name": "REŞADİYE", "code": "60730" },
+      { "name": "SULUSARAY", "code": "60872" },
+      { "name": "TURHAL", "code": "60302" },
+      { "name": "YEŞİLYURT", "code": "60862" },
+      { "name": "ZİLE", "code": "60402" }
+    ]
+  },
+  {
+    "name": "TRABZON",
+    "counties": [
+      { "name": "AKÇAABAT", "code": "61300" },
+      { "name": "ARAKLI", "code": "61700" },
+      { "name": "ARSİN", "code": "61900" },
+      { "name": "BEŞİKDÜZÜ", "code": "61800" },
+      { "name": "ÇARŞIBAŞI", "code": "61420" },
+      { "name": "ÇAYKARA", "code": "61940" },
+      { "name": "DERNEKPAZARI", "code": "61950" },
+      { "name": "DÜZKÖY", "code": "61390" },
+      { "name": "HAYRAT", "code": "61450" },
+      { "name": "KÖPRÜBAŞI", "code": "61630" },
+      { "name": "MAÇKA", "code": "61750" },
+      { "name": "OF", "code": "61830" },
+      { "name": "ORTAHİSAR", "code": "61040" },
+      { "name": "SÜRMENE", "code": "61600" },
+      { "name": "ŞALPAZARI", "code": "61670" },
+      { "name": "TONYA", "code": "61500" },
+      { "name": "VAKFIKEBİR", "code": "61400" },
+      { "name": "YOMRA", "code": "61250" }
+    ]
+  },
+  {
+    "name": "TUNCELİ",
+    "counties": [
+      { "name": "ÇEMİŞGEZEK", "code": "62600" },
+      { "name": "HOZAT", "code": "62400" },
+      { "name": "MAZGİRT", "code": "62810" },
+      { "name": "MERKEZ", "code": "62002" },
+      { "name": "NAZIMİYE", "code": "62952" },
+      { "name": "OVACIK", "code": "62901" },
+      { "name": "PERTEK", "code": "62502" },
+      { "name": "PÜLÜMÜR", "code": "62702" }
+    ]
+  },
+  {
+    "name": "UŞAK",
+    "counties": [
+      { "name": "BANAZ", "code": "64500" },
+      { "name": "EŞME", "code": "64600" },
+      { "name": "KARAHALLI", "code": "64700" },
+      { "name": "MERKEZ", "code": "64200" },
+      { "name": "SİVASLI", "code": "64802" },
+      { "name": "ULUBEY", "code": "64902" }
+    ]
+  },
+  {
+    "name": "VAN",
+    "counties": [
+      { "name": "BAHÇESARAY", "code": "65710" },
+      { "name": "BAŞKALE", "code": "65600" },
+      { "name": "ÇALDIRAN", "code": "65970" },
+      { "name": "ÇATAK", "code": "65870" },
+      { "name": "EDREMİT", "code": "65170" },
+      { "name": "ERCİŞ", "code": "65400" },
+      { "name": "GEVAŞ", "code": "65700" },
+      { "name": "GÜRPINAR", "code": "65900" },
+      { "name": "İPEKYOLU", "code": "65210" },
+      { "name": "MURADİYE", "code": "65500" },
+      { "name": "ÖZALP", "code": "65800" },
+      { "name": "SARAY", "code": "65830" },
+      { "name": "TUŞBA", "code": "65040" }
+    ]
+  },
+  {
+    "name": "YALOVA",
+    "counties": [
+      { "name": "ALTINOVA", "code": "77700" },
+      { "name": "ARMUTLU", "code": "77500" },
+      { "name": "ÇINARCIK", "code": "77300" },
+      { "name": "ÇİFTLİKKÖY", "code": "77600" },
+      { "name": "MERKEZ", "code": "77200" },
+      { "name": "TERMAL", "code": "77402" }
+    ]
+  },
+  {
+    "name": "YOZGAT",
+    "counties": [
+      { "name": "AKDAĞMADENİ", "code": "66300" },
+      { "name": "AYDINCIK", "code": "66510" },
+      { "name": "BOĞAZLIYAN", "code": "66400" },
+      { "name": "ÇANDIR", "code": "66620" },
+      { "name": "ÇAYIRALAN", "code": "66600" },
+      { "name": "ÇEKEREK", "code": "66500" },
+      { "name": "KADIŞEHRİ", "code": "66545" },
+      { "name": "MERKEZ", "code": "66010" },
+      { "name": "SARAYKENT", "code": "66325" },
+      { "name": "SARIKAYA", "code": "66655" },
+      { "name": "SORGUN", "code": "66750" },
+      { "name": "ŞEFAATLİ", "code": "66802" },
+      { "name": "YENİFAKILI", "code": "66472" },
+      { "name": "YERKÖY", "code": "66902" }
+    ]
+  },
+  {
+    "name": "ZONGULDAK",
+    "counties": [
+      { "name": "ALAPLI", "code": "67850" },
+      { "name": "ÇAYCUMA", "code": "67900" },
+      { "name": "DEVREK", "code": "67830" },
+      { "name": "EREĞLİ", "code": "67350" },
+      { "name": "GÖKÇEBEY", "code": "67680" },
+      { "name": "KİLİMLİ", "code": "67150" },
+      { "name": "KOZLU", "code": "67600" },
+      { "name": "MERKEZ", "code": "67980" }
+    ]
+  }
+]

@@ -4,7 +4,6 @@ import { iconObject } from "../../header/nav/iconObjects";
 
 export default function OtherDayCharts() {
   const { weatherData } = myStore();
-
   const element = [];
 
   if (weatherData?.list) {
@@ -22,11 +21,11 @@ export default function OtherDayCharts() {
     return (
       <ul
         key={index}
-        className={`bg-gradient-to-r from-theme5 to-theme4 grid items-center h-14 grid-cols-2  text-sm text-light sm:h-auto sm:w-auto sm:text-2xl md:h-32 md:text-4xl lg:h-auto lg:justify-evenly lg:p-0 lg:px-5 lg:text-2xl 2xl:text-4xl`}
+        className={`grid h-14 grid-cols-2 items-center bg-gradient-to-r from-theme5 to-theme4  text-sm text-light sm:h-auto sm:w-auto sm:text-2xl md:h-32 md:text-4xl lg:h-auto lg:justify-evenly lg:p-0 lg:px-5 lg:text-2xl 2xl:text-4xl`}
       >
         <li className={`pl-5`}>{day}</li>
         <li
-          className={`grid grid-cols-2 items-center gap-1 md:gap-20 whitespace-nowrap`}
+          className={`grid grid-cols-2 items-center gap-1 whitespace-nowrap md:gap-20`}
         >
           <div>{`${tempMax} / ${tempMin}°C`}</div>
           <div className={`w-7 sm:w-10 md:w-14 lg:w-12 xl:w-16 2xl:w-16`}>

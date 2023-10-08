@@ -50,14 +50,12 @@ export default function Chart() {
             stroke={theme == "light" ? "#ffe168" : "#13588B"}
           />
           <Area
-          
             type="natural"
             dataKey="Sıcaklık"
             label={{
-              fill: `${theme == "light" ? "#CCB454" : "#355773"}`,              
+              fill: `${theme == "light" ? "#CCB454" : "#355773"}`,
               fontSize: chartFontSize,
               dy: -10,
-             
             }}
             stroke={localThemeTW}
             fill={localThemeTW}
