@@ -43,7 +43,7 @@ export default function App() {
   /*                                 Geolocation                                */
   /* -------------------------------------------------------------------------- */
 
-  const reverseURL = `http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lon}&limit=5&appid=${apiKey}`;
+  const reverseURL = `https://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lon}&limit=5&appid=${apiKey}`;
   const { latitude, longitude, loading, error } = useGeolocation();
 
   if (error?.code === 1) {
