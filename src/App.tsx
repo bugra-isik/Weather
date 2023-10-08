@@ -135,7 +135,7 @@ export default function App() {
 
   return (
     <main
-      className={`flex h-screen w-screen items-center justify-center font-openSans sm:px-10`}
+      className={`flex h-[100dvh] w-screen items-center justify-center font-openSans sm:px-10`}
     >
       <div
         className={`fixed -z-50 h-full w-full bg-gradient-to-b from-grad1 to-grad2`}

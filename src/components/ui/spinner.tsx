@@ -12,7 +12,7 @@ export default function Spinner({ setSpinner }: SpinnerProps) {
         <WeatherIcons.Spinner />
       </span>
       <button
-        className={`absolute -bottom-20 rounded border border-theme2 bg-gradient-to-t from-theme5 to-theme4 px-4 py-2 font-black text-light drop-shadow transition duration-300 ease-out hover:scale-95`}
+        className={`absolute -bottom-20 rounded bg-theme5 px-4 py-2 font-black text-light drop-shadow transition duration-300 ease-out hover:scale-95`}
         onClick={() => setSpinner(true)}
       >
         Atla
