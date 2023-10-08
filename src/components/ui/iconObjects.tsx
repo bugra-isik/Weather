@@ -2,9 +2,9 @@ import { WeatherIcons } from "./svg/SVG";
 
 const iconObject: Record<string, JSX.Element> = {
   "01d": <WeatherIcons.ClearSky />,
-  "01n": <WeatherIcons.ClearSkyN />,
+  "01n": <WeatherIcons.ClearSky />,
   "02d": <WeatherIcons.FewClouds />,
-  "02n": <WeatherIcons.FewCloudsN />,
+  "02n": <WeatherIcons.FewClouds />,
   "03d": <WeatherIcons.ScatteredClouds />,
   "03n": <WeatherIcons.ScatteredClouds />,
   "04d": <WeatherIcons.OvercastClouds />,
@@ -12,7 +12,7 @@ const iconObject: Record<string, JSX.Element> = {
   "09d": <WeatherIcons.Drizzle />,
   "09n": <WeatherIcons.Drizzle />,
   "10d": <WeatherIcons.Rain />,
-  "10n": <WeatherIcons.RainN />,
+  "10n": <WeatherIcons.Rain />,
   "11d": <WeatherIcons.Thunderstorm />,
   "11n": <WeatherIcons.Thunderstorm />,
   "13d": <WeatherIcons.Snow />,

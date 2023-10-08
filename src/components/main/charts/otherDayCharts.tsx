@@ -1,6 +1,6 @@
 import { unix } from "dayjs";
 import { myStore } from "../../../store";
-import { iconObject } from "../../header/nav/iconObjects";
+import { iconObject } from "../../ui/iconObjects";
 
 export default function OtherDayCharts() {
   const { weatherData } = myStore();

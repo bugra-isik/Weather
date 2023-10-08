@@ -1,4 +1,4 @@
-import Nav from "./components/header/nav/nav";
+import Nav from "./components/header/nav";
 import { useCallback, useEffect, useState } from "react";
 import axios from "axios";
 import { myStore } from "../src/store";

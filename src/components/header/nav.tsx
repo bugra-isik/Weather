@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
-import { City, myStore } from "../../../store";
+import { City, myStore } from "../../store";
 import { useClickAway, useWindowSize } from "@uidotdev/usehooks";
 import { motion } from "framer-motion";
 import Weather from "./weather";
-import { inputClass, inputTexts } from "./constants";
+import { inputClass, inputTexts } from "../ui/constants";
 
 interface Districts {
   name: string;
@@ -41,7 +41,7 @@ export default function Nav() {
   //!-///////////////////////--TAILWIND--//////////////////////////////////////////////////
 
   const inputTW =
-    "h-10 w-36 sm:w-60 lg:w-40 xl:w-60 px-2 bg-theme3 placeholder:text-sm sm:placeholder:text-base placeholder:text-light/50 placeholder:font-light text-light";
+    "h-10 w-36 sm:w-60 lg:w-40 xl:w-60 px-2 bg-theme3 placeholder:text-sm sm:placeholder:text-base rounded placeholder:text-light/50 placeholder:font-light text-light";
   const inputListTW =
     "cursor-pointer select-none pl-2 border-b border-black py-3 hover:bg-theme3 ";
 

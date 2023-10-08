@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { myStore } from "../../../store";
-import { iconDescriptions, iconObject } from "./iconObjects";
+import { myStore } from "../../store";
+import { iconDescriptions, iconObject } from "../ui/iconObjects";
 
 export default function Weather() {
   const { currentCounty, weatherData2, currentCity, geoCityName } = myStore();
@@ -17,10 +17,10 @@ export default function Weather() {
             <ul
               className={`w-36 justify-self-end text-end text-2xl sm:text-2xl md:text-3xl lg:w-full lg:text-lg xl:text-2xl 2xl:text-4xl`}
             >
-              <li className={`capitalize`}>
+              <li className={`capitalize hyphens-auto`}>
                 {currentCounty?.toLocaleLowerCase() ?? weatherData2?.name}
               </li>
-              <li className={`capitalize`}>
+              <li className={`capitalize hyphens-auto`}>
                 {currentCity == ""
                   ? geoCityName
                   : currentCity?.toLocaleLowerCase()}

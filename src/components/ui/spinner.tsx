@@ -1,4 +1,4 @@
-import { WeatherIcons } from "../header/nav/svg/SVG";
+import { WeatherIcons } from "./svg/SVG";
 
 type SpinnerProps = {
   setSpinner: (x: boolean) => void;
